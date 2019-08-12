@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<b:Sources xmlns:b="http://schemas.openxmlformats.org/officeDocument/2006/bibliography" xmlns="http://schemas.openxmlformats.org/officeDocument/2006/bibliography">
+  <b:Source>
+    <b:Tag>recursos-para-diseñadores,-desarrolladores-y-creadores-de-la-web</b:Tag>
+    <b:SourceType>InternetSite</b:SourceType>
+    <b:Title>Recursos para Diseñadores, Desarrolladores y Creadores de la Web</b:Title>
+    <b:RefOrder>1</b:RefOrder>
+    <b:Author/>
+    <b:URL>https://blog.faztweb.com/2018/03/recursos-para-disenadores-y.html</b:URL>
+  </b:Source>
+  <b:Source>
+    <b:Tag>typography-in-ten-minutes-|-butterick’s-practical-typography</b:Tag>
+    <b:SourceType>InternetSite</b:SourceType>
+    <b:Title>Typography in ten minutes | Butterick’s Practical Typography</b:Title>
+    <b:RefOrder>1</b:RefOrder>
+    <b:Author/>
+    <b:URL>https://practicaltypography.com/typography-in-ten-minutes.html</b:URL>
+  </b:Source>
+  <b:Source>
+    <b:Tag>energia-potencial-electrica</b:Tag>
+    <b:SourceType>JournalArticle</b:SourceType>
+    <b:Title>energia potencial electrica</b:Title>
+    <b:RefOrder>1</b:RefOrder>
+    <b:Author/>
+  </b:Source>
+  <b:Source>
+    <b:Tag>transformadores---transformadores-eléctricos</b:Tag>
+    <b:SourceType>InternetSite</b:SourceType>
+    <b:Title>Transformadores - Transformadores Eléctricos</b:Title>
+    <b:RefOrder>1</b:RefOrder>
+    <b:Author/>
+    <b:URL>http://www.tecnologia-industrial.es/Transformador.htm</b:URL>
+  </b:Source>
+  <b:Source>
+    <b:Tag>transformadores</b:Tag>
+    <b:SourceType>InternetSite</b:SourceType>
+    <b:Title>TRANSFORMADORES</b:Title>
+    <b:RefOrder>1</b:RefOrder>
+    <b:Author/>
+    <b:URL>https://ddtorres.webs.ull.es/Docencia/Intalaciones/Electrifica/Tema%203.htm</b:URL>
+  </b:Source>
+  <b:Source>
+    <b:Tag>energy-stored-in-an-inductor</b:Tag>
+    <b:SourceType>InternetSite</b:SourceType>
+    <b:Title>Energy Stored in an Inductor</b:Title>
+    <b:RefOrder>1</b:RefOrder>
+    <b:Author/>
+    <b:URL>http://hyperphysics.phy-astr.gsu.edu/hbasees/electric/indeng.html</b:URL>
+  </b:Source>
+  <b:Source>
+    <b:Tag>gómez-campomanes-gómez-campomanes-1990-circuitos-eléctricos</b:Tag>
+    <b:SourceType>Book</b:SourceType>
+    <b:Title>Circuitos eléctricos</b:Title>
+    <b:Year>1990</b:Year>
+    <b:RefOrder>1</b:RefOrder>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>José.</b:First>
+            <b:Last>Gómez Campomanes</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>José</b:First>
+            <b:Last>Gómez Campomanes</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+    </b:Author>
+    <b:StandardNumber>8474682886</b:StandardNumber>
+    <b:Publisher>Servicio de Publicaciones de la Universidad de Oviedo</b:Publisher>
+  </b:Source>
+  <b:Source>
+    <b:Tag>gonzalez-perez-pérez-2012-montaje-y-mantenimiento-de-maquinas-electricas-rotativas-:-montaje-y-mantenimiento-de-instalaciones-electricas-de-baja-tension-(uf0897).</b:Tag>
+    <b:SourceType>Book</b:SourceType>
+    <b:Title>Montaje y mantenimiento de maquinas electricas rotativas : montaje y mantenimiento de instalaciones electricas de baja tension (uf0897).</b:Title>
+    <b:Year>2012</b:Year>
+    <b:RefOrder>1</b:RefOrder>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Joaquin.</b:First>
+            <b:Last>Gonzalez Perez</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Joaquín González</b:First>
+            <b:Last>Pérez</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+    </b:Author>
+    <b:StandardNumber>9788415670575</b:StandardNumber>
+    <b:Publisher>Ic Editorial</b:Publisher>
+  </b:Source>
+  <b:Source>
+    <b:Tag>castillo-castillo-2017-componentes-pasivos-(electrónica)</b:Tag>
+    <b:SourceType>Book</b:SourceType>
+    <b:Title>Componentes pasivos (Electrónica)</b:Title>
+    <b:Year>2017</b:Year>
+    <b:RefOrder>1</b:RefOrder>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Juan Carlos Martín</b:First>
+            <b:Last>Castillo</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Juan Carlos Martín</b:First>
+            <b:Last>Castillo</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+    </b:Author>
+    <b:StandardNumber>9788491612476</b:StandardNumber>
+    <b:Publisher>Editex</b:Publisher>
+  </b:Source>
+  <b:Source>
+    <b:Tag>cálculo-de-inductancias-de-bobinas-–-trescientos-baudios</b:Tag>
+    <b:SourceType>InternetSite</b:SourceType>
+    <b:Title>Cálculo de Inductancias de bobinas – TRESCIENTOS BAUDIOS</b:Title>
+    <b:RefOrder>1</b:RefOrder>
+    <b:Author/>
+    <b:URL>https://trescientosbaudios.blog/2017/02/20/calculo-de-inductancias-de-bobinas/</b:URL>
+  </b:Source>
+  <b:Source>
+    <b:Tag>mutual-inductance</b:Tag>
+    <b:SourceType>InternetSite</b:SourceType>
+    <b:Title>Mutual Inductance</b:Title>
+    <b:RefOrder>1</b:RefOrder>
+    <b:Author/>
+    <b:URL>http://hyperphysics.phy-astr.gsu.edu/hbasees/magnetic/indmut.html</b:URL>
+  </b:Source>
+  <b:Source>
+    <b:Tag>cap.-6:-corriente,-resistencia-y-fuerza-electromotriz-corriente-eléctrica</b:Tag>
+    <b:SourceType>JournalArticle</b:SourceType>
+    <b:Title>Cap. 6: Corriente, resistencia y fuerza electromotriz Corriente eléctrica</b:Title>
+    <b:RefOrder>1</b:RefOrder>
+    <b:Author/>
+  </b:Source>
+  <b:Source>
+    <b:Tag>generadores-y-motores-eléctricos</b:Tag>
+    <b:SourceType>InternetSite</b:SourceType>
+    <b:Title>Generadores y motores eléctricos</b:Title>
+    <b:RefOrder>1</b:RefOrder>
+    <b:Author/>
+    <b:URL>http://www.sabelotodo.org/fisica/generadores_motores.html</b:URL>
+  </b:Source>
+  <b:Source>
+    <b:Tag>el-campo-eléctrico-inducido---escuelapedia---recursos-educativos</b:Tag>
+    <b:SourceType>InternetSite</b:SourceType>
+    <b:Title>El campo eléctrico inducido - Escuelapedia - Recursos Educativos</b:Title>
+    <b:RefOrder>1</b:RefOrder>
+    <b:Author/>
+    <b:URL>http://www.escuelapedia.com/el-campo-electrico-inducido/</b:URL>
+  </b:Source>
+  <b:Source>
+    <b:Tag>full-text</b:Tag>
+    <b:SourceType>JournalArticle</b:SourceType>
+    <b:Title>full-text</b:Title>
+    <b:RefOrder>1</b:RefOrder>
+    <b:Author/>
+  </b:Source>
+  <b:Source>
+    <b:Tag>leyes-de-kirchhoff-»-electrónica-completa</b:Tag>
+    <b:SourceType>InternetSite</b:SourceType>
+    <b:Title>Leyes de Kirchhoff » Electrónica completa</b:Title>
+    <b:RefOrder>1</b:RefOrder>
+    <b:Author/>
+    <b:URL>http://electronicacompleta.com/lecciones/leyes-de-kirchhoff/</b:URL>
+  </b:Source>
+  <b:Source>
+    <b:Tag>faraday's-law</b:Tag>
+    <b:SourceType>InternetSite</b:SourceType>
+    <b:Title>Faraday's Law</b:Title>
+    <b:RefOrder>1</b:RefOrder>
+    <b:Author/>
+    <b:URL>http://hyperphysics.phy-astr.gsu.edu/hbasees/electric/farlaw.html</b:URL>
+  </b:Source>
+  <b:Source>
+    <b:Tag>¿qué-es-la-ley-de-faraday?-(artículo)-|-khan-academy</b:Tag>
+    <b:SourceType>InternetSite</b:SourceType>
+    <b:Title>¿Qué es la ley de Faraday? (artículo) | Khan Academy</b:Title>
+    <b:RefOrder>1</b:RefOrder>
+    <b:Author/>
+    <b:URL>https://es.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields/magnetic-flux-faradays-law/a/what-is-faradays-law</b:URL>
+  </b:Source>
+  <b:Source>
+    <b:Tag>maxwell-1954-a-treatise-on-electricity-and-magnetism.</b:Tag>
+    <b:SourceType>Book</b:SourceType>
+    <b:Title>A treatise on electricity and magnetism.</b:Title>
+    <b:Year>1954</b:Year>
+    <b:RefOrder>1</b:RefOrder>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>James Clerk</b:First>
+            <b:Last>Maxwell</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+    </b:Author>
+    <b:StandardNumber>0486606376</b:StandardNumber>
+    <b:Publisher>Dover Publications</b:Publisher>
+  </b:Source>
+  <b:Source>
+    <b:Tag>ley-de-lenz---wikipedia,-la-enciclopedia-libre</b:Tag>
+    <b:SourceType>InternetSite</b:SourceType>
+    <b:Title>Ley de Lenz - Wikipedia, la enciclopedia libre</b:Title>
+    <b:RefOrder>1</b:RefOrder>
+    <b:Author/>
+    <b:URL>https://es.wikipedia.org/wiki/Ley_de_Lenz</b:URL>
+  </b:Source>
+  <b:Source>
+    <b:Tag>campos-electricos-inducidos</b:Tag>
+    <b:SourceType>InternetSite</b:SourceType>
+    <b:Title>Campos electricos inducidos</b:Title>
+    <b:RefOrder>1</b:RefOrder>
+    <b:Author/>
+    <b:URL>http://cmap.upb.edu.co/rid=1Q4Z8XWRC-194PL12-LP1/Campos%20electricos%20inducidos.cmap</b:URL>
+  </b:Source>
+</b:Sources>

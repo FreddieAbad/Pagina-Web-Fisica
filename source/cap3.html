@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <title>Aprende Fisica</title>
+  <link rel="stylesheet" href="../css/feym.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!--Agregar Latex en HTML-->
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+  </script>
+  <script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-inverse ">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar">sdfgsdf</span>
+            <span class="icon-bar">sgdf</span>
+            <span class="icon-bar">sgdf</span>
+          </button>
+          <a href="index2.html" class="navbar-brand">Aprendiendo Electro-Magnetismo</a>
+        </div>
+        <div id="myNavbar" class="navbar-collapse">
+          <ul class="nav navbar-nav" >
+            <li class="active"><a href="index2.html">Inicio</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Capitulos<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="cap1.html">Cap. 1</a></li>
+                <li><a href="cap2.html">Cap. 2</a></li>
+                <li><a href="cap3.html">Cap. 3</a></li>
+                <li><a href="cap4.html">Cap. 4</a></li>
+                <li><a href="cap5.html">Cap. 5</a></li>
+                <li><a href="cap6.html">Cap. 6</a></li>
+                <li><a href="cap7.html">Cap. 7</a></li>
+                <li><a href="cap8.html">Cap. 8</a></li>
+              </ul>
+            </li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="informes.html">Laboratorio</a></li>
+            <li><a href="team.html">Equipo</a></li>
+            <li><a href="ejercicios.html">Ejercicios</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--Barra de Navegacion-->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+        <div class="navegacion"><span class="">
+          <div class="dropup">
+            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" >
+              <span class="icon-menu4"></span></button>
+              <div class="dropdown-menu">
+                <li class="dropdown-header">Ir a</li>
+                <li><a href="index2.html">Introduccion</a></li>
+                <li><a href="cap1.html">Contenidos</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="informes.html">Informes</a></li>
+                <li class="divider"></li>
+                <li class="cabecera">Quiero informacion</li>
+                <form>
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Correo">
+                  </div>
+                  <div class="boton">
+                    <button type="submit" class="btn btn-default">Enviar</button>
+                  </div>
+                </form>
+              </li>
+            </div>
+          </div>
+        </div>      </div>
+        <div class="col-6">
+          <div class="capitulo3">
+
+
+
+            <p>
+              <h2>ENERGIA POTENCIAL ELECTRICA</h2>
+              <h3>Capitulo 3</h3>
+              <p><b>Contenido:</b> Energia Potencial Electrica y Potencial Electrico,
+                Calculo de Potencial Electrico y Superficies Equipotenciales, Dipolo Electrico</p>
+                <p align="formula">
+                  <h3>Introduccion</h3>
+                </p>
+            </p>
+            <p>
+              Vamos a ver que es la energía potencial eléctrica, y después, ampliaremos
+              su explicación física de forma detallada con ejemplos para que podamos
+              entender el concepto fácilmente, incluso haciendo algunos ejercicios y
+              explicando el potencial eléctrico, el campo eléctrico y su fórmula.
+            </p>
+            <p>
+              <strong>¿Qué es la Energía Potencial Eléctrica?</strong>
+            </p>
+            <p>
+              "La Energía Potencial Eléctrica es la energía que tiene una carga eléctrica
+              debido a su posición en relación con otra u otras cargas eléctricas".
+            </p>
+            <p>
+              El movimiento de las cargas eléctricas es debido a esta energía.
+              <br/>
+              <br/>
+              <div class="imagen">
+                <img src="../images/epelectrica.png" alt="" style="max-width: 50%;" alt="">
+              </div>
+              <br/>
+              <br/>
+              En la imagen anterior la carga pequeña tiene máxima energía potencial
+              eléctrica cuando está pegada a la carga grande o carga 1, es por eso que si
+              la soltamos se moverá por repulsión alejándose de la carga grande y
+              perdiendo energía potencial eléctrica, pero ganando velocidad (energía
+              cinética).
+              <br/>
+              <br/>
+              Las cargas eléctricas pueden tener carga positiva, por ejemplo un protón, o
+              negativa, por ejemplo un electrón.
+              <br/>
+              <br/>
+              Las cargas eléctricas opuestas (positiva y negativa) se atraen, al igual
+              que la Tierra atrae a una pelota. Las cargas iguales se repelen (por
+              ejemplos dos cargas positivas o dos negativas).
+              <br/>
+              <br/>
+              Si tienes una pelota con la masa m y la elevas a cualquier altura, le estás
+              dando (aumentando) energía potencial gravitatoria. Sabemos esto por dos
+              razones: una, tienes que utilizar la energía de tus músculos para hacerlo,
+              y dos, cuando se suelta la pelota, cae al suelo y la energía que tenía
+              (potencial gravitatorio) se libera de nuevo, pero ahora en forma de energía
+              cinética (velocidad). Aumenta su velocidad (su energía cinética) mientras
+              va perdiendo energía potencial (altura).
+              <br/>
+              <br/>
+              La energía potencial eléctrica es similar, pero con cargas eléctricas en
+              lugar de masas. En lugar de levantar una pelota dentro del campo
+              gravitacional de la Tierra, una carga eléctrica se mueve cuando está en el
+              campo eléctrico de otra carga. La pelota se mueve (cae) porque está dentro
+              del campo gravitacional de la tierra,la carga eléctrica porque está dentro
+              del campo eléctrico de otra carga.
+              <br/>
+              <br/>
+              Al separar o juntar dos cargas eléctricas una distancia (por ejemplo un
+              radio r) dentro de sus campos eléctricos, le estas quitando o dando a las
+              cargas eléctricas potencial energético, una respecto a la otra. Al soltar
+              esas cargas, van a atraerse o repelerse, liberando esa energía eléctrica
+              adquirida. Es similar también a dos imanes, pero los imanes será energía
+              magnética.
+              <br/>
+              <br/>
+              Antes de comenzar con la explicación física paso a paso, donde explicaremos
+              que es un campo eléctrico, la energía potencial eléctrica, su fórmula y el
+              potencial eléctrico con cargas concretas, es bueno que recordemos los
+              conceptos de energía y energía potencial.
+              <br/>
+              <br/>
+              La energía es la capacidad que tiene un cuerpo de realizar cambios o
+              trabajo. Por ejemplo, en un velero el aire mueve el velero golpeando las
+              velas. Luego el aire tiene energía por que es capaz de realizar cambios a
+              su alrededor. Esos cambios que realiza se llaman Trabajo. El aire se
+              convierte en movimiento del velero por lo tanto la energía del aire se ha
+              transformado en energía de movimiento, el aire pierde su energía y la cede
+              al velero. Ese cambio es lo que significa que la energía ni se crea ni se
+              destruye, solo se transforma. El aire realiza trabajo cuando mueve el
+              velero.
+              <br/>
+              <br/>
+              La energía potencial es la que poseen los cuerpos por estar en una
+              determinada posición. La energía potencial más famosa es la energía
+              potencial gravitatoria, es la energía que poseen los cuerpo por estar a una
+              determinada altura. La gravedad de la tierra hace una fuerza sobre todos
+              los cuerpos que están situados sobre ella, "Tira" de los cuerpo hacia
+              abajo, por eso una piedra que esté a 10m de altura, si la soltamos la
+              fuerza de gravedad tira de ella hasta que llega al suelo. Luego la piedra a
+              10m tiene una energía, esta energía se transformará en trabajo cuando la
+              soltemos, ya que se moverá hasta llegar al suelo. Este trabajo se produce
+              cuando la fuerza de la gravedad actúa sobre la piedra y la mueve una
+              distancia, recuerda Trabajo = Fuerza x distancia. Cuando está quieta a una
+              altura solo tiene energía, capacidad de realizar trabajo, pero no realiza
+              ningún trabajo.
+              <br/>
+              <br/>
+              Bueno, pues cuando la piedra esta quieta, sin moverse a una cierta altura,
+              tiene una energía, y como esta energía depende de la posición de la piedra
+              (a más altura mayor energía) resulta que la piedra posee una energía
+              potencial, energía potencial gravitatoria, por que es producida por la
+              gravedad. ¿Lo tenemos claro? Pues ahora pasemos a explicar la energía
+              potencial gravitatoria.
+              <br/>
+            </p>
+            <p>
+              <h4>Energía Potencial Eléctrica</h4>
+            </p>
+            <p>
+              Los cuerpos que poseen carga eléctrica pueden tener carga positiva o
+              negativa, por ejemplo un electrón tiene carga eléctrica negativa y un
+              protón positiva.
+              <br/>
+              <br/>
+              Resulta que cuando un cuerpo tiene carga eléctrica genera una región de
+              espacio a su alrededor (campo eléctrico) donde si introducimos otra carga
+              eléctrica, esta se verá afectada por la primera.
+              <br/>
+              <br/>
+              <div class="imagen">
+                <img src="../images/epelectrica2.png" alt="" style="max-width: 50%;" alt="">
+              </div>
+              <br/>
+              <br/>
+              Fíjate en la figura, hemos puesto con un circulo la región del espacio
+              donde si introducimos otra carga, se vería afectada por la carga eléctrica
+              positiva de la figura. Esa región es lo que se llama el campo eléctrico de
+              la carga +.
+              <br/>
+              <br/>
+              Cualquier carga que introduzcamos en el campo de la carga + se verá
+              sometido a una fuerza debida al campo eléctrico de esta carga. Esta fuerza
+              será mayor cuanto más cerca esta una carga de la otra, es decir depende de
+              la posición dentro del campo eléctrico.
+              <br/>
+              La dirección de esa fuerza a la que se va a ver sometida la carga que
+              pongamos dentro del campo va a depender del tipo de carga que sea. ¿Te
+              suena los polos contrarios se atraen? Pues bien, si las cargas son iguales
+              la fuerza que tendrá hará que se repelan (se separen) y si son distintas,
+              por ejemplo, una + y la otra -, la fuerza será tal que hará que se atraigan
+              (se junten).
+              <br/>
+              <br/>
+              <strong>Conclusión</strong>
+              : El tamaño de la fuerza depende de la posición dentro del campo, pero la
+              dirección de la fuerza dependerá del tipo que sean, cargas iguales o
+              diferentes. Recuerda que las fuerzas se representan por medio de vectores.
+              <br/>
+              <br/>
+              <div class="imagen">
+                <img src="../images/cecarga.png" alt="" style="max-width: 50%;" alt="">
+              </div>
+              <br/>
+              <br/>
+              Si somos capaces de dejar quieta la carga que introducimos en el campo,
+              esta no generará trabajo, pero si tendrá energía, ya que al soltarla se
+              moverá por la acción de la fuerza a la que se ve sometida, igual que la
+              piedra de la que hablamos al principio. En el caso de la piedra la fuerza
+              era producida por la gravedad de la tierra. En el caso de una carga
+              eléctrica la fuerza será producida por estar dentro de un campo eléctrico.
+              Es por eso que la energía que tendrá la carga dentro del campo se llamará
+              energía potencial y eléctrica, ya que es producida por el campo eléctrico.
+              <br/>
+              <br/>
+              Tienes que darte cuenta que al introducir una nueva carga dentro del campo
+              de la +, la carga que introducimos nueva también tiene su propio campo, lo
+              que hace que también sobre la carga + inicial, se genere una fuerza por
+              causa del campo de la nueva carga que entra en su campo. Es decir 2 cargas
+              tienen dos campos y si las dos cargas están dentro de cada uno de los
+              campos producidos por cada una de ellas, las dos cargas tendrán una fuerza.
+              Las dos cargas o se separan o se juntan.
+              <br/>
+              <br/>
+              <div class="imagen">
+                <img src="../images/lcampo2.png" alt="" style="max-width: 50%;" alt="">
+              </div>
+              <br/>
+              <br/>
+              En la imagen de arriba hemos representado los dos casos posibles con las
+              llamadas líneas de campo, que simplemente son unas líneas que representan
+              las fuerzas dentro de los campos eléctricos. Son líneas imaginarias que
+              describen, si los hubiere, los cambios en dirección de las fuerzas al pasar
+              de un punto a otro dentro del campo.
+              <br/>
+              <br/>
+            </p>
+            <p>
+              <h4>Ley de Coulomb</h4>
+            </p>
+            <p>
+              Todas estas cantidades de fuerza y de energía se pueden calcular
+              matemáticamente mediante una fórmula.
+              <br/>
+              ¿Con qué fuerza se atraen o repelen las cargas? Coulomb, físico e ingeniero
+              francés, nos dio la solución con su ley. Aquí tienes la fórmula:
+            </p>
+            <div class="imagen">
+              <img src="../images/lcoulumb.png" alt="" style="max-width: 50%;" alt="">
+            </div>
+
+            <p>
+              Dentro de la fórmula tenemos:
+              <br/>
+              $F$ = Fuerza de atracción o repulsión medida en Newtons (N).
+            </p>
+            <p>
+              $K$ = Constante llamada constante de proporcionalidad o de coulomb que
+              depende del medio en el que estén las cargas y de las unidades en las que
+              se expresen el resto de elementos que hay dentro de la fórmula. Expresando
+              todo en el Sistema Internacional de Unidades de Medida y en el vacío vale
+              $9 \cdot 10^{9} \frac{N \cdot m^{2}}{C^{2}}$
+            </p>
+            <p>
+              $q_{1}$ = carga eléctrica de 1 expresada en Coulumbios ($C$).
+            </p>
+            <p>
+              $q_{2}$ = carga eléctrica de 2 expresada en Coulumbios ($C$).
+            </p>
+            <p>
+              <br/>
+              $r$ = distancia que separa las dos cargas en metros ($m$).
+            </p>
+            <p>
+              Si te fijas bien, te darás cuenta que si incluyes el signo en los valores
+              de las cargas, el valor de la fuerza eléctrica en esta expresión puede
+              venir acompañada de un signo. Este signo será:
+              <br/>
+              <br/>
+            </p>
+            <ul>
+              <li><p>
+                Fuerza positiva. cuando la fuerza sea de repulsión\
+              </p></li>
+              <li><p>
+                Fuerza negativa. cuando la fuerza sea de atracción.
+              </p>
+            </li>
+          </ul>
+          <p>
+            La energía potencial eléctrica que posee una carga puntual q1 en presencia
+            de otra carga puntual q2 que se encuentran separadas cierta distancia es:
+          </p>
+          <p>
+            $E_{p} = K \cdot \frac{q_{1} \cdot q_{2}}{r}$
+          </p>
+          <p>
+            <ul>
+              <li>
+                $E_{p}$ es la energía potencial eléctrica. En el S.I. se mide en Julios
+                ($J$).
+              </li>
+              <br/>
+              <li>$q_{1}$ y $q_{2}$ son los valores de las dos cargas puntuales. En el S.I.
+                se miden en Coulombios ($C$).
+              </li>
+              <br/>
+              <li>$r$ es el valor de la distancia que las separa. En el S.I. se mide en
+                metros ($m$).
+                <br/></li>
+                <li>$K$ es la constante de la ley de Coulomb. Para el vacío su valor es
+                  aproximadamente $9 \times 10^{9} \frac{N \cdot m^{2}}{C^{2}}$ utilizando
+                  unidades en el S.I.
+                </li>
+              </ul>
+            </p>
+            <p>
+              Esta energía potencial será positiva si las cargas poseen el mismo signo y
+              negativa si tienen signos distintos.
+            </p>
+            <p>
+              Recuerda esa energía potencial eléctrica será la capacidad que tendrá para
+              realizar trabajo la carga eléctrica, en este caso para moverse cuando la
+              soltemos dentro del campo eléctrico.
+            </p>
+            <p>
+              El trabajo que realiza una fuerza eléctrica para desplazar una carga desde
+              un punto A hasta otro B puede expresarse de la siguiente forma:
+            </p>
+            <p>
+              $W_{e}(A \rightarrow B) = -(E_{pB} – E_{pA}) = E_{pA} – E_{pB}$
+            </p>
+            <p>
+              Si te fijas en la fórmula podríamos decir que el trabajo es igual al
+              incremento de la energía potencial eléctrica. $W_{e}$, es el trabajo para
+              desplazarse de $A$ hasta $B$.
+            </p>
+            <p>
+              <h4>Potencial Electrico</h4>
+            </p>
+            <p>
+              En electricidad, normalmente es mas conveniente usar la energía potencial
+              eléctrica por unidad de carga, llamado expresamente potencial eléctrico. Es
+              decir, la energía potencial, pero por cada unidad de carga, por cada
+              coulomb.
+            </p>
+            <p>
+              Esta nueva magnitud, el potencial eléctrico se mide en voltios y su fórmula
+              sería:
+            </p>
+            <p>
+              $U = \frac{E_{p}}{Q}$
+            </p>
+            <p>
+              $U$ = Potencial Eléctrico = $\frac{julios}{Coulumbios}$ = Voltios
+            </p>
+            <p>
+              $E_{p}$ = Energía Potencial en Julios.
+            </p>
+            <p>
+              $Q$ = Carga (Cantidad de Coulumbs de la carga) en $C$.
+            </p>
+            <p>
+              Podríamos definir el potencial eléctrico en un punto de un campo eléctrico
+              como la energía potencial eléctrica que posee la unidad de carga positiva
+              situada en ese punto.
+            </p>
+            <p>
+              Si en la fórmula de la energía potencial la carga que introducimos en el
+              campo la ponemos el valor de 1C, tendremos la fórmula del potencial
+              eléctrico:
+            </p>
+            <p>
+              $U = K \times (\frac{q}{r})$ siendo $q$ la carga que produce el campo.
+            </p>
+            <p>
+              Esto es muy útil, pues si tenemos un campo eléctrico podríamos definir el
+              potencial eléctrico en cualquier punto del campo sin necesidad de saber de
+              que valor será la carga que luego coloquemos allí.
+              <br/>
+              <br/>
+              Mira aquí definimos 3 puntos de potencial eléctrico en un campo: $V_{1}$,
+              $V_{2}$ y $V_{3}$.
+            </p>
+            <div class="imagen">
+              <img src="../images/potencialelectrico.png" alt="" style="max-width: 50%;" alt="">
+            </div>
+
+            <p>
+              ¿Por qué representarlo con un círculo? Porque la energía potencial
+              eléctrica depende de la distancia, por lo tanto el potencial también, es la
+              $E_{p}$ por unidad de carga. Todos los puntos que se encuentren a la misma
+              distancia de la carga central tendrán el mismo potencial eléctrico.
+            </p>
+            <p>
+              Imagina que a la distancia del círculo $V_{1}$, todos eso puntos del
+              círculo tienen un potencial eléctrico de $V_{1}= 6V$. Simplemente si
+              quisiéramos saber cual sería la energía potencial de una carga, por ejemplo
+              de $3C$ si lo situamos en ese punto dentro del campo, solo tendríamos que
+              multiplicar el potencial en ese punto por el valor de la carga que pongamos
+              en ese punto, es decir en nuestro caso $E_{p} = 6V \times 3C = 18 J$.
+            </p>
+            <p>
+              Podríamos calcular los potenciales en todos los puntos del campo, bueno en
+              unos cuantos puntos, y de esa forma cuando queramos introducir una carga
+              dentro del campo, calcular su energía potencial eléctrica en un punto u
+              otro, sería muy sencillo.
+            </p>
+            <p>
+              <h4>Tensión o Voltaje</h4>
+            </p>
+            <p>
+              Otra magnitud muy usada en electricidad es la diferencia de potencial
+              también llamada tensión o voltaje. Es simplemente la diferencia que habrá
+              entre dos puntos con potenciales eléctricos diferentes. Imagina que un
+              punto dentro de un campo eléctrico tiene un potencial eléctrico de $5V$ y
+              en otro punto es de $3V$, pues la Tensión será de $5 - 3 = 2V$.
+            </p>
+            <p>
+              Cuando en una pila medimos la tensión entre los dos bornes de la pila
+              (negativo y positivo), lo que estamos es midiendo la tensión entre estos
+              dos puntos. Lo mismo pasa en un enchufe.
+              <br/>
+              <br/>
+              <br/>
+              <strong></strong>
+            </p>
+            <p>
+              <strong>
+                CALCULO DE POTENCIAL ELÉCTRICO
+              </strong>
+            </p>
+            <p>
+              Para encontrar el potencial $V$ debido a una sola carga puntual $q$, se
+              divide la energía potencial entre $q_{0}$:
+            </p>
+            <p>
+              $V = \frac{U}{q_{0}} = \frac{q}{4 \pi \epsilon_{0} r}$
+            </p>
+            <p>
+              Donde $r$ es la distancia de la carga puntual $q$ al punto en que se evalúa
+              el potencial. Si $q$ es positiva, el potencial que produce es positivo en
+              todos los puntos; si q es negativa, produce un potencial negativo en
+              cualquier lugar.
+            </p>
+            <p>
+              El potencial debido a un conjunto de cargas puntuales (suma escalar):
+            </p>
+            <p>
+              $ V = \frac{U}{q_{0}} = \frac{1}{4 \pi \epsilon_{0} } \sum_i
+              \frac{q_{i}}{r_{i}}$
+            </p>
+            <p>
+              (Potencial debido a un conjunto de cargas puntuales).
+            </p>
+            <p>
+              En una distribución contínua de carga a lo largo de una línea, superficie o
+              volumen:
+            </p>
+            <p>
+              $V = \frac{1}{4 \pi \epsilon_{0}} \int \frac{dq}{r}$
+            </p>
+            <p>
+              (Potencial debido a una distribución continua de carga)
+            </p>
+            <p>
+              Donde $r$ es la distancia que hay entre el elemento con carga $dq$ y el
+              punto del campo donde se desea obtener $V$.
+            </p>
+            <p>
+              <strong>SUPERFICIE EQUIPOTENCIAL</strong>
+            </p>
+            <p>
+              Las líneas de campo nos ayudan a visualizar cómo es el comportamiento de
+              distintas cargas que generan un campo eléctrico. El potencial en varios
+              puntos de un campo eléctrico puede representarse gráficamente por medio de
+              superficies equipotenciales. Se basan en el mismo concepto de un mapa
+              topográfico, donde las curvas de nivel unen puntos que se encuentran a la
+              misma elevación. Si una masa m se moviera sobre el terreno a lo largo de
+              una curva de nivel, la energía potencial gravitacional $mgh$ no cambiaría
+              porque la elevación h sería constante. Una superficie equipotencial es una
+              superficie tridimensional sobre la que el potencial eléctrico V es el mismo
+              en todos los puntos. Si una carga de prueba q0 se desplaza de un punto a
+              otro sobre tal superficie, la energía potencial eléctrica q0V permanece
+              constante. Las superficies equipotenciales para distintos potenciales nunca
+              se tocan o intersecan.
+            </p>
+            <p>
+              <strong></strong>
+            </p>
+            <p>
+              La energía potencial no cambia a medida que una carga de prueba se traslada
+              sobre una superficie equipotencial, por lo tanto el campo eléctrico no
+              realiza trabajo sobre esa carga. Las líneas de campo y las superficies
+              equipotenciales siempre son perpendiculares entre sí. Para un campo
+              uniforme, en el que las líneas de campo son rectas, paralelas y están
+              igualmente espaciadas, las superficies equipotenciales son planos paralelos
+              perpendiculares a las líneas de campo.
+            </p>
+            <div class="imagen">
+              <img src="../images/stsequipotencial.png" alt="" style="max-width: 50%;" alt="">
+            </div>
+
+            <p>
+              <strong>DIPOLO </strong>
+              <strong>ELÉCTRICO</strong>
+            </p>
+            <p>
+              Un dipolo eléctrico consiste en un par de cargas puntuales de igual
+              magnitud y signos opuestos (una carga positiva q y una carga negativa -q)
+              separadas por una distancia d. Un ejemplo de un dipolo eléctrico es una
+              molécula de agua, los enlaces químicos dentro de la molécula ocasionan un
+              desplazamiento de la carga, formando así un dipolo. Cuando la sal se
+              disuelve en agua, la sal se disocia en un ion de sodio positivo ($Na_{1}$)
+              y un ion de cloro negativo ($Cl_{2}$), los cuales tienden a ser atraídos
+              hacia los extremos negativo y positivo, respectivamente, de las moléculas
+              de agua.
+            </p>
+            <div class="imagen">
+              <img src="../images/dipoloelectrico.png" alt="" style="max-width: 50%;" alt="">
+            </div>
+
+            <p>
+              <strong>CAMPO EN UN DIPOLO </strong>
+              <strong>ELÉCTRICO</strong>
+            </p>
+            <p>
+              Se refiere a un dipolo eléctrico como una fuente de campo eléctrico. En
+              cada punto de la distribución, el campo total es la suma vectorial de los
+              campos generados por dos cargas individuales. Para su cálculo se usa el
+              principio de superposición de campos eléctricos para sumar las
+              contribuciones de las cargas individuales al campo.
+            </p>
+            <div class="imagen">
+              <img src="../images/cdelectrico.png" alt="" style="max-width: 50%;" alt="">
+            </div>
+            <div class="division">
+            </br>
+            <hr/>
+            </br>
+            </div>
+
+            <div class="vcap3">
+              <div class="row" align="left">
+                <div class="col-sm-6">
+                  <h3 align="center">Capitulo 3</h3>
+                  <h4>Temas Tratados.</h4>
+
+                  <div class="col-md-2">
+                  </div>
+                  <div class="col-md-8">
+                    <ul>
+                      <li>Energia Potencial Electrica y Potencial Electrico.</li>
+                      <li>Calculo de Potencial Electrico y Superficies Equipotenciales.</li>
+                      <li>Dipolo Electrico.</li>
+                    </ul>      </div>
+                    <div class="col-md-2">
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="col-md-1">
+                    </div>
+                    <div class="col-md-10">
+                      <iframe width="420" height="315"
+                      src="https://www.youtube.com/embed/videoseries?list=PLDXpdfOWL9elMDuGv2MC8hjhRgYcgaHnI">
+                    </iframe>
+                  </div>
+                  <div class="col-md-1">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-2">
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <footer>
+      <iframe src="footer.html" width="1500" height="400" frameBorder="0" scrolling="no"></iframe>
+    </footer>
+
+
+  </body>
+  </html>

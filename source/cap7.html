@@ -1,0 +1,1322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <title>Aprende Fisica</title>
+  <link rel="stylesheet" href="../css/feym.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!--Agregar Latex en HTML-->
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+  </script>
+  <script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-inverse ">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar">sdfgsdf</span>
+            <span class="icon-bar">sgdf</span>
+            <span class="icon-bar">sgdf</span>
+          </button>
+          <a href="index2.html" class="navbar-brand">Aprendiendo Electro-Magnetismo</a>
+        </div>
+        <div id="myNavbar" class="navbar-collapse">
+          <ul class="nav navbar-nav" >
+            <li class="active"><a href="index2.html">Inicio</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Capitulos<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="cap1.html">Cap. 1</a></li>
+                <li><a href="cap2.html">Cap. 2</a></li>
+                <li><a href="cap3.html">Cap. 3</a></li>
+                <li><a href="cap4.html">Cap. 4</a></li>
+                <li><a href="cap5.html">Cap. 5</a></li>
+                <li><a href="cap6.html">Cap. 6</a></li>
+                <li><a href="cap7.html">Cap. 7</a></li>
+                <li><a href="cap8.html">Cap. 8</a></li>
+              </ul>
+            </li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="informes.html">Laboratorio</a></li>
+            <li><a href="team.html">Equipo</a></li>
+            <li><a href="ejercicios.html">Ejercicios</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--Barra de Navegacion-->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+        <div class="navegacion"><span class="">
+          <div class="dropup">
+            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" >
+              <span class="icon-menu4"></span></button>
+              <div class="dropdown-menu">
+                <li class="dropdown-header">Ir a</li>
+                <li><a href="index2.html">Introduccion</a></li>
+                <li><a href="cap1.html">Contenidos</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="informes.html">Informes</a></li>
+                <li class="divider"></li>
+                <li class="cabecera">Quiero informacion</li>
+                <form>
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Correo">
+                  </div>
+                  <div class="boton">
+                    <button type="submit" class="btn btn-default">Enviar</button>
+                  </div>
+                </form>
+              </li>
+            </div>
+          </div>
+        </div>      </div>
+        <div class="col-6">
+          <div class="capitulo5">
+            <h2>INDUCCIÓN ELECTROMAGNÉTICA</h2>
+            <h3>Capitulo 7</h3>
+            <p><b>Contenido: </b>Ley de Faraday. Ley de Lenz, Campos eléctricos inducidos, Generadores eléctricos y motores,  Inductancias: propia y mutua, Cálculo de la inductancia, Energía en inductancias, Energía del campo magnético, transformador.</p>
+            <p>
+              <h4>INDUCCIÓN ELECTROMAGNÉTICA</h4>
+              La inducción electromagnética es el proceso por el cual se puede inducir una corriente por medio de un cambio en el campo magnético.
+              Hay dos leyes fundamentales que describen la inducción electromagnética:
+              <ul>
+                <li>Ley de Faraday</li>
+                <li>Ley de Lenz</li>
+              </ul>
+            </p>
+            <div class="leyfaraday">
+              <h4>Ley de Faraday</h4>
+              <p>
+                descubierta por el físico del siglo XIX Michael Faraday. Relaciona la
+                razón de cambio de flujo magnético que pasa a través de una espira (o lazo)
+                con la magnitud de la fuerza electromotriz $\mathcal{E}$ inducida en la espira.
+                La relación es: </br>
+                <div class="formula">
+                  $\mathcal{E} = \frac{\mathrm{d}\Phi}{\mathrm{d}t}$
+                </div>          ​
+                La fuerza electromotriz, o FEM, se refiere a la diferencia de potencial a través de
+                la espira descargada (es decir, cuando la resistencia en el circuito es alta).
+                En la práctica es a menudo suficiente pensar la FEM como un voltaje, pues tanto
+                el voltaje y como la FEM se miden con la misma unidad, el volt.
+                Establece que:
+                <div class="formula">
+                  $\oint_C \vec{E}\vec{dl} = \frac{d}{dt} \int_{S} \vec{B} \cdot \vec{dA}$
+                </div>
+                donde:
+                $\vec{E}$  es el campo eléctrico,
+                $\vec{dl}$ es el elemento infinitesimal del contorno C,
+                $\vec{B}$ es la densidad de campo magnético y
+                $S$ es una superficie arbitraria, cuyo borde es C.
+
+                Las direcciones del contorno $C$ y de $\vec{dA}$ y $\vec{dA}$ están dadas
+                por la regla de la mano derecha.
+              </p>
+              <p>
+                El punto clave aquí es que un alambre que se mueve en un campo no necesariamente
+                representa una fuente ideal de voltaje; el voltaje que podrías medir con un
+                voltímetro de alta impedancia solo sería igual a la FEM si la carga es pequeña.
+              </p>
+            </div>
+            <div class="leylenz">
+              <h4>Ley de Lenz</h4>
+              <p>
+                La ley de Lenz es una consecuencia del principio de conservación de la energía
+                aplicado a la inducción electromagnética. Fue formulada por Heinrich Lenz en
+                1833. Mientras que la ley de Faraday nos dice la magnitud de la FEM producida,
+                la ley de Lenz nos dice en qué dirección fluye la corriente, y establece que
+                la dirección siempre es tal que se opone al cambio de flujo que la produce.
+                Esto significa que cada campo magnético generado por una corriente inducida
+                va en la dirección opuesta al cambio en el campo original.</br>
+                Típicamente incorporamos la ley de Lenz a la ley de Faraday con un signo menos,
+                que nos permite utilizar el mismo sistema de coordenadas para el flujo y la FEM.
+                A veces nos referimos al resultado como la ley de Faraday-Lenz:
+                <div class="formula">
+                  $ \mathcal{E} = -\frac{\mathrm{d}\Phi}{\mathrm{d}t}$
+                </div>          ​
+                En la práctica, frecuentemente se lidia con la inducción magnética en espiras
+                múltiples de alambre, donde cada una contribuye con la misma FEM. Por esta razón,
+                incluimos un término adicional NNN para representar el número de vueltas, es
+                decir:
+                <div class="formula">
+                  $\mathcal{E} = -N \frac{\mathrm{d}\Phi}{\mathrm{d}t}$
+                </div>
+                ​<p>
+                  Donde $\epsilon$ es el voltaje inducido, $\frac{d\phi}{dt}$ es la tasa de variación temporal del
+                  flujo magnético $\phi$ y $N$ el número de espiras del conductor. La dirección del
+                  voltaje inducido (el signo negativo en la fórmula) se debe a la oposición
+                  al cambio de flujo magnético.
+                </p>
+                <div class="imagen">
+                  <img src="../images/lenz.png" alt="" style="max-width: 50%;" alt="">
+                </div>
+              </p>
+            </div>
+            <div class="campoelectricoinducido">
+              <h3>
+                Campo Eléctrico Inducido
+              </h3>
+              <div>
+                <br/>
+              </div>
+              <div class="imagen">
+                <img src="../images/campoinducido.png" alt="" style="max-width: 50%;" alt="">
+              </div>
+
+              <p>
+                (Con variación en la corriente i estamos automáticamente variando el campo
+                B producido por A)
+              </p>
+              <div>
+                <p>
+                  Los fenómenos eléctricos que se producen cerca de las cargas eléctricas
+                  están conectados por el hecho de que hay un campo eléctrico junto a la
+                  zona de carga. Por lo tanto, podemos decir que sólo habrá un campo
+                  eléctrico cuando una carga de prueba interactúe con la región de
+                  perturbación.
+                </p>
+                <div>
+                </br>
+              </div>
+              <p>
+                Una fuerza electromotriz inducida tanto puede proceder de la variación
+                de un campo magnético en función del tiempo, así como la acción de un
+                campo magnético uniforme en un hilo conductor rectilíneo. Es decir, se
+                origina por el movimiento de un circuito. En ese caso, la variación del
+                flujo del campo magnético induce un campo eléctrico E en cada punto del
+                espacio.
+              </p>
+              <div>
+              </br>
+            </div>
+            <p>
+              Siempre que verificamos que una corriente eléctrica inducida se originó
+              por consecuencia del movimiento de un circuito eléctrico, ese fenómeno
+              es explicado por la fuerza magnética. Sin embargo, en algunos momentos
+              tendremos dificultades en definir la corriente eléctrica inducida
+              haciendo uso de la fuerza magnética. Entonces, para tal definición,
+              tomaremos como base la Ley de Faraday.
+            </p>
+            <div>
+            </br>
+          </div>
+          <p>
+            En la figura de arriba tenemos dos espiras (conductores cerrados
+            planos) en formato circular A y D. De acuerdo con la figura ilustrada
+            podemos ver que ambas espiras están en paralelo. Ahí también podemos
+            apreciar que la espira A está asociada a un generador (fuente) y a una
+            resistencia eléctrica de valor R. Si acaso hubiera una variación en la
+            corriente eléctrica del circuito veremos que el campo magnético B
+            generado por la espira A sufrirá alteraciones en su flujo.
+          </p>
+          <div>
+          </br>
+        </div>
+        <p>
+          Siendo así, si el valor del campo B varía, variará también el valor del
+          flujo magnético en la espira D, creándose una corriente inducida en la
+          propia espira D. Tenemos que atender al hecho de que el campo magnético
+          no genera fuerzas sobre cargas estáticas; pero, por otro lado, el campo
+          eléctrico sí. Siendo así, podemos concluir que la variación del campo
+          magnético B genera un campo eléctrico E; y ese campo actúa sobre los
+          electrones libres de la espira D, creando, entonces, una corriente
+          eléctrica inducida. Siendo así, de acuerdo a la Ley de Faraday, vemos
+          que campos magnéticos variables generan campos eléctricos.
+        </p>
+        <div>
+          <br/>
+        </div>
+        <div>
+          FORMULAS IMPORTANTES
+        </div>
+        <div class="formula">
+          $\oint E \cdot dL = \epsilon$
+        </div>
+        <div>
+          <br/>
+        </div>
+        <div class="formula">
+          $\oint E \cdot dL = - \frac{d \phi_{B}}{dt}$
+        </div>
+        <div>
+          <br/>
+        </div>
+        <div class="formula">
+          $F = q \cdot E$
+        </div>
+        <div>
+          <br/>
+        </div>
+      </div>
+    </div>
+    <div class="generadoresymotores">
+      <h3>
+        Generadores y motores eléctricos
+      </h3>
+      <div>
+        <br/>
+      </div>
+      <p>
+        La producción de electricidad en la vida moderna está basada en su gran
+        mayoría en la ley de inducción de Faraday. La conversión de energía
+        mecánica a energía eléctrica en forma de corriente se realiza casi en su
+        totalidad con el uso de generadores de corriente alterna, cuyo principio de
+        funcionamiento describiremos a continuación.
+      </p>
+      <div>
+        <br/>
+      </div>
+      <div class="imagen">
+        <img src="../images/generadoralterna.png" alt="" style="max-width: 50%;" alt="">
+      </div>
+      <div>
+        Generador de corriente alterna.
+      </div>
+      <div>
+        <br/>
+      </div>
+      <div class="imagen">
+        <img src="../images/lazoalambrerotando.png" alt="" style="max-width: 50%;" alt="">
+      </div>
+
+      <p>
+        Lazo de alambre rotando.
+        <br/>
+      </p>
+      <div>
+        <br/>
+      </div>
+      <div>
+        <h4>
+          Generadores de corriente alterna
+        </h4>
+      </div>
+      <div>
+        <br/>
+      </div>
+      <p>
+        Imagine una espira de alambre conductor que forma un bucle de área A
+        (figura 1). La espira está colocada entre los polos de un imán, es decir,
+        en un campo magnético constante, $B$, y rota sobre un eje perpendicular a
+        las lineas del campo a la velocidad angular $ω$. Los extremos del alambre
+        que conforman la espira están conectados a dos anillos conductores de
+        deslizamiento, denominados colectores, en contacto con sendas escobillas de
+        rozamiento estacionarias, también conductoras. Las escobillas a su vez se
+        conectan a un circuito externo formado por una lámpara incandescente. A
+        medida que el bucle gira, el flujo magnético que lo afecta cambia, ya que
+        cambia el área efectiva del bucle atravesada por el campo magnético, y con
+        ello se induce una fem* ($\epsilon$). La fem inducida da lugar a una
+        corriente eléctrica en el circuito externo que ilumina la lámpara.
+      </p>
+      <div>
+        <br/>
+      </div>
+      <p>
+        *Desde que Alessandro Volta, inventor de la primera pila en 1800, introdujo
+        el término fuerza electromotriz (fem), se ha convertido en tradición el uso
+        de tal frase para referirse a la fuente de energía eléctrica que causa que
+        las cargas se muevan en los circuitos eléctricos, y aunque la palabra
+        fuerza está fuera de contexto, se sigue utilizando con frecuencia hoy en
+        día.
+      </p>
+      <div>
+        <br/>
+      </div>
+      <p>
+        Note que cuando el bucle de alambre está en posición horizontal como se
+        muestra en la figura 1 no hay lineas de campo cruzando el área A del bucle,
+        sin embargo, cuando gira $90º$ se coloca en posición vertical y todo el
+        flujo magnético pasa por su interior. Evidentemente el área efectiva que
+        enfrenta las lineas de campo va creciendo gradualmente entre ambas
+        posiciones extremas.
+      </p>
+      <div>
+        <br/>
+      </div>
+      <p>
+        Para determinar la expresión de cálculo de la fem inducida en la espira que
+        rota, nos basaremos en la expresión de la fem inducida en un conductor en
+        movimiento, $\epsilon = Blv$. En el esquema de la izquierda de la figura 2
+        se muestra el lazo de alambre rotando en la dirección de las manecillas del
+        reloj en un campo magnético constante dirigido a la derecha. La fuerza
+        magnética que afecta los portadores de carga ($F = qvB$) en los lados del
+        bucle $ab$ y $cd$ no está dirigida paralela a el eje del alambre, si no
+        perpendicular a este lo que implica que en estos lados no hay fuerza neta
+        que tienda a hacer circular la corriente por el bucle, esto es, no se
+        produce fem.
+      </p>
+      <div>
+        <br/>
+      </div>
+      <p>
+        Una situación diferente se produce en los lados $bc$ y $ad$ en los que la
+        fuerza magnética sobre los portadores de carga si tiene un valor neto en la
+        dirección paralela a los alambres y por ello se induce una fem que es la
+        que, a resumidas cuentas, hace circular la corriente en el circuito
+        externo. En todo instante de tiempo, $t$, el lado $bc$ tiene una velocidad,
+        $v$, y forma un ángulo $θ$ con las lineas del campo magnético. Debemos
+        tener en cuenta ahora que la componente de v paralela a las lineas de campo
+        no produce efecto alguno sobre las cargas del alambre, mientras que la
+        componente de la velocidad perpendicular a las lineas de campo magnético
+        produce una fuerza magnética que mueve los electrones de $c$ hacia $b$. De
+        esta forma, la fem inducida en el lado $bc$ es igual a $Blv_{⟂}$, donde $l$
+        es la longitud del lado y $v_{⟂}$es la componente de v perpendicular a las
+        lineas de campo.
+      </p>
+      <div>
+        <br/>
+      </div>
+      <p>
+        Igualmente una fem de la misma magnitud se induce en el lado da y como
+        $v_{⟂} = v sen θ$, la fem total inducida será:
+      </p>
+      <div>
+        <br/>
+      </div>
+      <div class="formula">
+        $\epsilon = 2Blv_{⟂} = 2Blv sen θ $
+      </div>
+      <div class="formula">
+        (ecuación 1)
+      </div>
+      <div>
+        <br/>
+      </div>
+      <p>
+        Cuando el bucle gira a una velocidad angular $ω$ constante se tiene que:
+      </p>
+      <div>
+        <br/>
+      </div>
+      <div class="formula">
+        $θ = ωt$
+      </div>
+      <div class="formula">
+        (ecuación 2)
+      </div>
+      <div>
+        <br/>
+      </div>
+      <p>
+        Además, como todos los puntos en los lados, $bc$, y, da, giran en
+        trayectorias circulares de radio $r$ alrededor del eje central; para el
+        mismo caso de velocidad angular constante tenemos que la velocidad lineal
+        es:
+      </p>
+      <div>
+        <br/>
+      </div>
+      <div class="formula">
+        $v = rω = (l^{'}/2)/ω$
+      </div>
+      <div class="formula">
+        (ecuación 3)
+      </div>
+      <div>
+        <br/>
+      </div>
+      <p>
+        donde $l^{'}$ es la longitud de los lados $ab$, y, $cd$.
+      </p>
+      <div>
+        <br/>
+      </div>
+      <p>
+        Sustituyendo en la ecuación 1 los valores de las ecuaciones 2 y 3 se llega
+        a que la fem inducida responde a la expresión:
+      </p>
+      <div>
+        <br/>
+      </div>
+      <div class="formula">
+        $\epsilon = 2Bl(l'/2)ωsen(ωt)= Bll^{'}ω sen(ωt)$
+      </div>
+      <div>
+        (ecuación 4)
+      </div>
+      <div>
+        <br/>
+      </div>
+      <p>
+        Como el producto ($lxl^{'}$) es igual al área, A, del bucle; y si el bucle
+        tiene una cantidad N de espiras, finalmente se tendrá que:
+      </p>
+      <div>
+        <br/>
+      </div>
+      <div class="formula">
+        $\epsilon = NBAω sen(ωt)$
+      </div>
+      <p>
+        (ecuación 5)
+      </p>
+      <div>
+        <br/>
+      </div>
+      <p>
+        La ecuación 5 deja claro dos cosas:
+      </p>
+      <p>
+        que la fem inducida tiene un comportamiento sinusoidal con el tiempo.
+      </p>
+      <div>
+        <br/>
+      </div>
+      <p>
+        que el valor máximo de la fem ($ξ_{max}$) se produce cuando el plano del
+        bucle es paralelo a las lineas de campo ($θ =90º$) ya que aquí $sen(θ)$
+        alcanza su máximo valor (1), y equivale a:
+      </p>
+      <div class="formula">
+        $\epsilon_{max} = NBAω$
+      </div>
+      <p>
+        (ecuación 6)
+      </p>
+      <div>
+        <br/>
+      </div>
+      <p>
+        Hasta quí hemos descrito solo el principio físico de operación de los
+        generadores de corriente alterna, pero en los potentes generadores de la
+        industria eléctrica que operan a grandes potencias se requiere de mucho más
+        que eso, estas máquinas son obras de ingeniería monumentales.
+      </p>
+      <h4>
+        Generadores de corriente directa
+      </h4>
+      <div>
+        <br/>
+      </div>
+      <div class="imagen">
+        <img src="../images/generadorcontinua.png" alt="" style="max-width: 50%;" alt="">
+      </div>
+
+      <p>
+        Esquema del generador de corriente directa.
+      </p>
+      <div>
+        <br/>
+      </div>
+      <p>
+        Uno de estos aparatos se muestra esquemáticamente en la figura 3. Como
+        podrá apreciar la construcción del generador de corriente directa es
+        esencialmente igual al de alterna, con la diferencia de que la conexión del
+        lazo que rota se hace a través de un anillo dividido en secciones, llamado
+        conmutador.
+      </p>
+      <div>
+        <br/>
+      </div>
+      <p>
+        La fem de estas máquinas siempre tiene la misma polaridad como se muestra
+        en el gráfico inferior de la figura 3, en el que podrá observarse que la
+        magnitud de la fem es pulsante. La particularidad del anillo colector de la
+        corriente de estar dividido, hace que durante el giro las diferentes
+        secciones del anillo colector cambien de escobilla contactada cada media
+        vuelta del lazo de manera sincronizada con el cambio de polaridad de la fem
+        inducida (por eso lo de conmutador). De esta forma el contacto de cada una
+        de las escobillas siempre se hará con una sección del conmutador que tiene
+        la misma polaridad de la fem.
+      </p>
+      <div>
+        <br/>
+      </div>
+      <h4>
+        Motores eléctricos.
+      </h4>
+      <div>
+        <br/>
+      </div>
+      <p>
+        Un motor eléctrico es, en principio, un generador funcionando a la inversa;
+        en lugar de suministrar energía mecánica al eje de entrada para producir
+        energía eléctrica, se suministra energía eléctrica al aparato y se obtiene
+        energía mecánica de salida en el eje del motor. Si en el generador de la
+        figura 3 cambiamos la lámpara por una pila, se producen fuerzas magnéticas
+        sobre los lados horizontales del lazo que dan lugar a un momento de fuerza
+        que lo hace girar. El conmutador invierte la corriente cada media vuelta
+        garantizando con ello que el momento de fuerza sea siempre en la misma
+        dirección. Este momento generado convierte el antiguo generador en una
+        máquina que puede realizar trabajo útil, es decir un motor. Si alimentamos
+        un motor con corriente alterna, podemos prescindir del conmutador ya que la
+        corriente invierte la dirección automáticamente cada media vuelta. La
+        velocidad de rotación de este último tipo de motor está sincronizada con la
+        frecuencia de cambio de la corriente alterna.
+      </p>
+      <div>
+        <br/>
+      </div>
+      <p>
+        Lo que hemos tratado hasta aquí sobre motores y generadores ha sido muy
+        simplificado, pero una discusión detallada de estas máquinas eléctricas se
+        va en mucho del alcance del artículo.
+      </p>
+    </div>
+    <div class="inductanciamp">
+      <h3>
+        Acoplamiento de Inductancias
+      </h3>
+      <div>
+        <br/>
+      </div>
+      <p>
+        Cuando fluye una corriente constante en una bobina como en la ilustración
+        de la derecha, se produce un campo magnético en la otra bobina. Pero como
+        el campo magnético no está cambiando, la ley de Faraday nos dice que no
+        habrá voltaje inducido en la bobina secundaria. Pero si abrimos el
+        interruptor, para interrumpir la corriente como en la ilustración del
+        medio, habrá un cambio en el campo magnético de la bobina de la derecha y
+        se inducirá un voltaje. Una bobina es un dispositivo reaccionario; ¡no le
+        gusta ningún cambio!. El voltaje inducido hará que fluya una corriente en
+        la bobina secundaria, que trata de mantener el campo magnético que había
+        allí. El hecho de que el campo inducido siempre se oponga al cambio, es un
+        ejemplo de la ley de Lenz. Una vez que ya se ha interrumpido la corriente y
+        se cierra el interruptor para hacer que fluya de nuevo la corriente como en
+        el ejemplo de la derecha, se inducirá una corriente en dirección opuesta,
+        para oponerse al incremento del campo magnético. La persistente generación
+        de voltajes que se oponen al cambio en el campo magnético es el principio
+        de operación de un transformador. El hecho de que el cambio en la corriente
+        de una bobina, afecte a la corriente y el voltaje de la segunda bobina,
+        está cuantificado por una propiedad llamada inductancia mutua.
+        <br/>
+      </p>
+      <div>
+        <br/>
+      </div>
+      <div class="imagen">
+        <img src="../images/acoplamientoInduc.png" alt="" style="max-width: 50%;" alt="">
+      </div>
+
+      <div>
+        <br/>
+      </div>
+      <h4>
+        Inductancia Mutua
+      </h4>
+      <div>
+        <br/>
+      </div>
+      <p>
+        Se llama inductancia mutua al efecto de producir una fem en una bobina,
+        debido al cambio de corriente en otra bobina acoplada. La fem inducida en
+        una bobina se describe mediante la ley de Faraday y su dirección siempre es
+        opuesta al cambio del campo magnético producido en ella por la bobina
+        acoplada (ley de Lenz).
+      </p>
+      <div>
+        <br/>
+      </div>
+      <p>
+        La fem inducida en la bobina #2, originada por el cambio en la corriente I1
+        se puede expresar como
+      </p>
+      <div class="formula">
+        $fem_{2} = - N_{2}A\frac{dB}{dt} = - M \frac{dI_{1}}{dt}$
+      </div>
+      <div>
+        <br/>
+      </div>
+      <div class="imagen">
+        <img src="../images/inductanciamutua.png" alt="" style="max-width: 50%;" alt="">
+      </div>
+
+      <div>
+        <br/>
+      </div>
+      <p>
+        La inductancia mutua M se puede definir como la proporción entre la fem
+        generada en la bobina 2, y el cambio en la corriente en la bobina 1 que
+        origina esa fem.
+      </p>
+      <div>
+        <br/>
+      </div>
+      <p>
+        La aplicación mas usual de la inductancia mutua es el transformador.
+      </p>
+      <div>
+        <br/>
+      </div>
+      <div>
+        <h4>
+          Inductancia Mutua: Transformador
+        </h4>
+        <div>
+          <br/>
+        </div>
+        <p>
+          Si por el secundario de un transformador fluye mas corriente debido a
+          que se está consumiendo mas potencia, entonces por el primario debe
+          fluir igualmente mas corriente para suministrar mas energía. Este
+          acoplamiento entre el primario y el secundario, se describe mas
+          convenientemente en términos de inductancia mutua. La inductancia mutua
+          aparece en las ecuaciones del circuito de ambos circuitos primario y
+          secundario del transformador.
+        </p>
+      </div>
+      <div>
+        <br/>
+      </div>
+      <div class="imagen">
+        <img src="../images/transformador.png" alt="" style="max-width: 50%;" alt="">
+      </div>
+
+      <div>
+        <br/>
+      </div>
+    </div>
+    <div class="calculoinductancias">
+      <h3>
+        CALCULO DE INDUCTANCIA
+      </h3>
+      <div>
+        <br/>
+      </div>
+      <p>
+        Empezaremos hablando de la permeabilidad magnética, que es la capacidad de
+        los materiales de absorber fuerzas magnéticas. La permeabilidad del vació
+        es la siguiente:
+      </p>
+      <div>
+        <br/>
+      </div>
+      <div class="formula">
+        $\mu_o=4 \pi 10^{-7}$
+      </div>
+      <div>
+        <br/>
+      </div>
+      <p>
+        Tenemos por otra parte que la permeabilidad de un material es:
+      </p>
+      <div>
+        <br/>
+      </div>
+      <div class="formula">
+        $\mu=\mu_r*\mu_o$
+      </div>
+      <div>
+        <br/>
+      </div>
+      <div class="formula">
+        $\mu_rs=2$ es la permeabilidad relativa de un material.
+      </div>
+      <div class="formula">
+        <br/>
+      </div>
+      <div class="formula">
+        $\mu_os=2$ es como ya hemos visto la permeabilidad del vació.
+      </div>
+      <div>
+        <br/>
+      </div>
+      <p>
+        Como dato anecdótico se incluyen algunos materiales:
+      </p>
+      <div>
+        <br/>
+      </div>
+      <div class="imagen">
+        <img src="../images/materiales.png" alt="" style="max-width: 50%;" alt="">
+      </div>
+
+      <div>
+        <br/>
+      </div>
+      <div>
+        <p>
+          Si el núcleo es de aire, la permeabilidad μ es la misma que la del
+          vacío.
+        </p>
+        <div>
+          <br/>
+        </div>
+        <p>
+          La fórmula “clásica” que nos dice la inductancia de una bobina es la
+          siguiente:
+        </p>
+        <div>
+          <br/>
+        </div>
+        <div class="formula">
+          $L=\mu \frac{N^2*A}{l}$
+        </div>
+        <div>
+          <br/>
+        </div>
+        <p>
+          Las unidades son las siguientes:
+        </p>
+        <div>
+          <br/>
+        </div>
+        <div  class="formula">
+          $N$ = Número de espiras
+        </div>
+        <div  class="formula">
+          $A$ = Área transversal de la espira (cm²)
+        </div>
+        <div class="formula">
+          $l$= longitud del arrollamiento (cm)
+        </div>
+        <div>
+          <br/>
+        </div>
+        <p>
+          En resumen, podemos decir lo siguiente de la fórmula anterior:
+        </p>
+        <div>
+          <br/>
+        </div>
+        <p>
+          La inductancia es directamente proporcional a la permeabilidad del
+          núcleo, el numero de vueltas y el diámetro del núcleo e inversamente
+          proporcional a la longitud o espacio entre las espiras.
+        </p>
+        <div>
+          <br/>
+        </div>
+        <p>
+          En el mundo real, los componentes electrónicos tienen una serie de
+          inductancias y capacidades parásitas. Por esta razón esta formula no es
+          demasiado útil, a no ser que nos ayude a elegir un valor adecuado entre
+          una serie de posibles soluciones (tamaño del núcleo, espiras, diámetro
+          del hilo, etc.).
+        </p>
+        <div>
+          <br/>
+        </div>
+        <p>
+          Hay una fórmula muy conocida que esta basada en resultados empíricos,
+          la fórmula de “Wheeler”:
+        </p>
+        <div>
+          <br/>
+        </div>
+        <div class="formula">
+          $L=0.394 \frac{a^2*N^2}{9a+10l}s=2$
+        </div>
+      </div>
+      <div>
+        <br/>
+      </div>
+      <div class="imagen">
+        <img src="../images/variables.png" alt="" style="max-width: 50%;" alt="">
+      </div>
+
+      <div>
+        <br/>
+      </div>
+      <div>
+        <p>
+          Las variables de la fórmula son las siguientes:
+        </p>
+        <div>
+          <br/>
+        </div>
+        <p>
+          $a$ es el radio
+        </br>
+        $l$ es la longitud del arrollamiento de espiras.
+      </p>
+      <div>
+        <br/>
+      </div>
+      <p>
+        Las dos unidades son en centímetros y el resultado del cálculo es en
+        micro-henrios.
+      </p>
+    </div>
+  </div>
+  <div class="energiacampo">
+    <h3>
+      Energía en una Inductancia
+    </h3>
+    <div>
+      <br/>
+    </div>
+    <p>
+      Cuando fluye una corriente eléctrica por una inductancia, hay energía
+      almacenada en el campo magnético. Considere una inductancia pura L, la
+      potencia instantánea que se debe suministrar para iniciar la corriente en
+      la inductancia es
+    </p>
+    <div class="formula">
+      $P = iv = LI\frac{di}{dt}$
+    </div>
+    <div>
+      <br/>
+    </div>
+    <p>
+      de modo que la entrada de energía para construir la corriente final i está
+      dada por la integral
+    </p>
+    <div class="formula">
+      Energia Almacenada = $\int_{0}^{t} P dt = \int_{1}^{0} Li' di' =
+      \frac{1}{2}LI^{2} $
+    </div>
+    <div>
+      <br/>
+    </div>
+    <p>
+      Usando el ejemplo de un solenóide, se puede obtener una expresión para la
+      densidad de energía.
+    </p>
+    <div>
+      <br/>
+    </div>
+    <div>
+      <br/>
+    </div>
+    <h3>
+      Energía en un Campo Magnético
+    </h3>
+    <div>
+      <br/>
+    </div>
+    <div>
+      <p>
+        Del análisis de la energía almacenada en una inductancia,
+      </p>
+      <div class="formula">
+        Energia Almacenada = $\frac{1}{2} LI^{2}$
+      </div>
+      <p>
+        la densidad de energía (energía/volúmen) es
+      </p>
+      <div class="formula">
+        $\frac{\frac{1}{2}LI^{2}}{A l} = \frac{\frac{\mu
+          N^{2}AB^{2}l^{2}}{2L\mu^{2}N^{2}}}{A l}$
+        </div>
+        <p>
+          de modo que la energía almacenada en el campo magnético es
+        </p>
+        <div class="formula">
+          $\eta_{B} = \frac{energia}{volumen} = \frac{B^{2}}{2\mu}$
+        </div>
+      </div>
+      <div>
+        <br/>
+      </div>
+      <div class="imagen">
+        <img src="../images/energiacampomagnetico.png" alt="" style="max-width: 50%;" alt="">
+      </div>
+    </div>
+    <div class="transformador">
+      <h4>
+        TRANSFORMADORES
+      </h4>
+      <div>
+        <br/>
+      </div>
+      <p>
+        Los transformadores son dispositivos electromagnéticos estáticos que
+        permiten partiendo de una tensión alterna conectada a su entrada, obtener
+        otra tensión alterna mayor o menor que la anterior en la salida del
+        transformador.
+      </p>
+      <div>
+        <br/>
+      </div>
+      <p>
+        Permiten así proporcionar una tensión adecuada a las características de los
+        receptores. También son fundamentales para el transporte de energía
+        eléctrica a largas distancias a tensiones altas, con mínimas perdidas y
+        conductores de secciones moderadas.
+      </p>
+      <div>
+        <br/>
+      </div>
+      <h4>
+        CONSTITUCION Y FUNCIONAMIENTO
+      </h4>
+      <div>
+        <br/>
+      </div>
+      <p>
+        Constan esencialmente de un circuito magnético cerrado sobre el que se
+        arrollan dos bobinados, de forma que ambos bobinados están atravesados por
+        el mismo flujo magnético. El circuito magnético está constituido (para
+        frecuencias industriales de 50 Hz) por chapas de acero de poco espesor
+        apiladas, para evitar las corrientes parásitas .
+      </p>
+      <div>
+        <br/>
+      </div>
+      <p>
+        El bobinado donde se conecta la corriente de entrada se denomina primario,
+        y el bobinado donde se conecta la carga útil, se denomina secundario.
+      </p>
+      <div>
+        <br/>
+      </div>
+      <p>
+        La corriente alterna que circula por el bobinado primario magnetiza el
+        núcleo de forma alternativa. El bobinado secundario está así atravesado por
+        un flujo magnético variable de forma aproximadamente senoidal y esta
+        variación de flujo engendra por la Ley de Lenz, una tensión alterna en
+        dicho bobinado.
+      </p>
+      <div>
+        <br/>
+      </div>
+      <div class="imagen">
+        <img src="../images/circuitoprimario.png" alt="" style="max-width: 50%;" alt="">
+      </div>
+
+      <p>
+        (Circuitos primario y secundario en un transformador)
+      </p>
+      <div>
+        <br/>
+      </div>
+      <div class="imagen">
+        <img src="../images/nucleo.png" alt="" style="max-width: 50%;" alt="">
+      </div>
+
+      <p>
+        (Construcción del núcleo de un transformador con devanados coaxiales)
+      </p>
+      <div>
+        <br/>
+      </div>
+      <div>
+        <h4>
+          ECUACIONES FUNDAMENTALES
+        </h4>
+        <div>
+          <br/>
+        </div>
+        <p>
+          El valor eficaz de la fuerza electromotriz en los devanados del
+          transformador se determina por las siguientes fórmulas:
+        </p>
+        <div>
+          <br/>
+        </div>
+        <div align="center">
+          $U_{1}$ =$4,44 B_{M} A f n_{1}$
+        </div>
+        <div>
+          <br/>
+        </div>
+        <div align="center">
+          $U_{2}$ = $4,44 B_{M} A f n_{2}$
+        </div>
+        <div>
+          <br/>
+        </div>
+        <p>
+          En donde:
+        </p>
+        <div>
+          <br/>
+        </div>
+        <p>
+          $U_{1}$ = tensión en devanado primario (voltios)
+        </p>
+        <div>
+          <br/>
+        </div>
+        <p>
+          $U_{2}$ = tensión en devanado secundario (voltios)
+        </p>
+        <div>
+          <br/>
+        </div>
+        <p>
+          $B_{M}$ = valor máximo de la inducción magnética en el núcleo (Tesla).
+          (En núcleos de hierro magnéticos de transformador suele tener un valor
+          máximo de 1,4 Tesla)
+        </p>
+        <div>
+          <br/>
+        </div>
+        <p>
+          $f$ = frecuencia de la corriente alterna ($Hz$)
+        </p>
+        <div>
+          <br/>
+        </div>
+        <p>
+          $n_{1}$ = número de espiras del devanado primario (adimensional)
+        </p>
+        <div>
+          <br/>
+        </div>
+        <p>
+          $n_{2}$ = número de espiras del devanado secundario (adimensional)
+        </p>
+        <div>
+          <br/>
+        </div>
+        <p>
+          $A$ = área de la sección recta del núcleo magnético ($m_{2}$)
+        </p>
+        <div>
+          <br/>
+        </div>
+        <div>
+        </div>
+        <div>
+          <br/>
+        </div>
+        <p>
+          Si el primario y el secundario están atravesados por la misma inducción
+          máxima $BM$ y la sección $A$ del núcleo permanece constante, entonces;
+        </p>
+        <div>
+          <br/>
+        </div>
+        <div align="center">
+          $\frac{U_{1}}{U_{2}} = \frac{n_{1}}{n_{2}}$
+        </div>
+        <div>
+          <br/>
+        </div>
+        <p>
+          A este cociente se denomina relación de transformación, e indica la
+          relación entre la tensión de entrada y salida, cuando el transformador
+          está funcionando en vacío, o sea sin carga, en el secundario.
+        </p>
+      </div>
+      <div>
+        <br/>
+      </div>
+      <div class="imagen">
+        <img src="../images/arrollamientos.png" alt="" style="max-width: 50%;" alt="">
+      </div>
+
+      <p>
+        (Formas constructivas de arrollamientos)
+      </p>
+      <div>
+        <br/>
+      </div>
+      <div>
+        <h4>
+          POTENCIAS Y EFICIENCIAS
+        </h4>
+        <div>
+          <br/>
+        </div>
+        <p>
+          Un transformador es esencialmente dos solenoides o inductancias sobre
+          un mismo núcleo, por consiguiente existirá un desfase entre la tensión
+          y la corriente que atraviesa ambos devanados.
+        </p>
+        <div>
+          <br/>
+        </div>
+        <p>
+          Las potencias de entrada y salida son :
+        </p>
+        <div>
+          <br/>
+        </div>
+        <div align="center">
+          $P_{1} = U_{1} I_{1} cos(φ_{1})$ (Watios)
+        </div>
+        <div>
+          <br/>
+        </div>
+        <div align="center">
+          $P_{2} = U_{2} I_{2} cos(φ_{2})$ (Watios)
+        </div>
+        <div>
+          <br/>
+        </div>
+        <p>
+          El rendimiento del transformador $\eta$ es igual:
+        </p>
+        <div>
+          <br/>
+        </div>
+        <div align="center">
+          $\eta = \frac{P_{2}}{P_{1}}$
+        </div>
+        <div>
+          <br/>
+        </div>
+        <p>
+          También existen pérdidas en el núcleo debidas a las corrientes
+          parásitas y a la histeresis, y pérdidas en los devanados debido al
+          efecto Joule. Todas estas pérdidas se manifiestan en forma de calor, y
+          disminuyen el rendimiento del transformador, por consiguiente, el
+          rendimiento real también se puede expresar como:
+        </p>
+        <div>
+          <br/>
+        </div>
+        <div class="formula">
+          $\eta = \frac{P_{2}}{P_{2} + P_{nuc} + P_{dev}}$
+        </div>
+        <div>
+          <br/>
+        </div>
+        <p>
+          Los rendimientos reales que se observan en los transformadores son
+          altos,(al no tener entrehierros como las máquinas rotativas,) y mejoran
+          con el tamaño del transformador (entre un 80% y un 98%).
+        </p>
+        <div>
+          <br/>
+        </div>
+        <h4>
+          CIRCUITO EQUIVALENTE
+        </h4>
+        <div>
+          <br/>
+        </div>
+        <p>
+          El devanado secundario de un transformador es equivalente a un
+          generador ideal de corriente alterna en serie con una resistencia
+          ohmica pura $R$, en serie con una reactancia $X_{L}$ , y a su vez en
+          serie con la carga exterior $Z$, que se le conecte.
+        </p>
+      </div>
+      <div>
+        <br/>
+      </div>
+      <div class="imagen">
+        <img src="../images/cetransformador.png" alt="" style="max-width: 50%;" alt="">
+      </div>
+
+      <p>
+        (Circuito equivalente de un transformador)
+      </p>
+      <div>
+        <br/>
+      </div>
+      <p>
+        Como en cualquier generador real, la tensión en el secundario va
+        disminuyendo según aumenta la carga que se conecte, debido a la impedancia
+        interna que tiene el transformador. Esto indica que la tensión en vacío en
+        el secundario del transformador siempre es algo superior a la tensión en
+        carga del mismo.
+        <br/>
+      </p>
+      <div>
+        <br/>
+      </div>
+      <div class="imagen">
+        <img src="../images/tensionsalida.png" alt="" style="max-width: 50%;" alt="">
+      </div>
+
+      <p>
+        (Tensión de salida en un transformador en carga)
+      </p>
+      <div>
+        <br/>
+      </div>
+      <div>
+        <h4>
+          LIMITES DE FUNCIONAMIENTO DE UN TRANSFORMADOR
+        </h4>
+        <div>
+          <br/>
+        </div>
+        <p>
+          Un transformador se proyecta para unas tensiones dadas de servicio en
+          primario y secundario y una potencia máxima continua que puede
+          obtenerse en su secundario. El incrementar la tensión en su primario, y
+          por tanto la corriente en el mismo, lleva a la saturación del núcleo
+          magnético, con lo que el mismo no es capaz de transferir mas potencia
+          al secundario y el exceso de potencia de entrada solo produce
+          sobrecalentamientos del núcleo por corrientes parásitas, y del devanado
+          primario, por efecto Joule, llevando a la rotura del devanado por fallo
+          del aislante del mismo. Una espira en cortocircuito genera a su vez mas
+          calor y provoca el fallo total del devanado.
+        </p>
+        <div>
+          <br/>
+        </div>
+        <p>
+          En un transformador es fundamental prever una correcta refrigeración
+          del mismo, y a este fin, los de mayor tamaño ( a partir de algunos
+          kilowatios), están bañados en aceite refrigerante que actúa también
+          como dieléctrico.
+        </p>
+        <div>
+          <br/>
+        </div>
+        <p>
+          Así pues, la tensión de entrada, la potencia máxima continua de salida
+          , y la temperatura ambiente, son tres parámetros que no deben
+          sobrepasarse de forma permanente.
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="division">
+  </br>
+  <hr/>
+  </br>
+  </div>
+
+  <div class="vcap7">
+    <div class="row" align="left">
+      <div class="col-sm-6">
+        <h3 align="center">Capitulo 7</h3>
+        <h4>Temas Tratados.</h4>
+
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-8">
+          <ul>
+            <li>Ley de Faraday. </li>
+            <li>Ley de Lenz.</li>
+            <li>Campos eléctricos inducidos.</li>
+            <li>Generadores eléctricos y motores.</li>
+            <li>Inductancias: propia y mutua, Cálculo de la inductancia.</li>
+            <li>Energía en inductancias.</li>
+            <li>Energía del campo magnético.</li>
+            <li>Transformador.</li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-10">
+          <iframe width="420" height="315"
+          src="https://www.youtube.com/embed/videoseries?list=PLDXpdfOWL9ekOmHmYzB85Dz9b71I2eeo_">
+        </iframe>
+      </div>
+      <div class="col-md-1">
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+<div class="col-md-2">
+
+</div>
+</div>
+</div>
+
+<footer>
+  <iframe src="footer.html" width="1500" height="400" frameBorder="0" scrolling="no"></iframe>
+</footer>
+</body>
+</html>

@@ -1,0 +1,626 @@
+<p align="center">
+    <strong>CAPITULO 8 Corrientes Eléctricas Variables</strong>
+</p>
+<p align="center">
+    <strong>Capítulo 8</strong>
+</p>
+<p>
+    <strong>Contenido:</strong>
+    Inductancia, resistencia y capacidad en circuitos eléctricos, Circuitos RL,
+    LC, RC, RLC, Potencia en circuitos de corriente alterna.
+</p>
+<p align="center">
+    <strong>Inductancia</strong>
+</p>
+<p>
+Interacción magnética entre dos alambres que transportan corrientes    <em>estables</em>; la corriente en uno de los alambres genera un campo
+    magnético que ejerce una fuerza sobre la corriente en el otro alambre. Pero
+    cuando hay una corriente <em>variable </em>en uno de los circuitos, surge
+    una interacción adicional. Considere dos bobinas de alambre cerca una de la
+    otra, como se ilustra en la figura . Una corriente que circula por la
+    bobina 1 produce un campo magnético y, por lo tanto, un flujo magnético a
+    través de la bobina 2. Si la corriente en la bobina 1 cambia, el flujo a
+    través de la bobina 2 también cambia; de acuerdo con la ley de Faraday,
+    esto induce una fem en la bobina 2. De este modo, un cambio en la corriente
+    de un circuito.
+</p>
+<p>
+    puede inducir otra corriente en un segundo circuito.
+</p>
+<p>
+    <br/>
+    AGREGAR IMAGEN inductanciamutua
+</p>
+<p>
+    En la figura, una corriente $i_{1}$ establece un campo magnético, y algunas
+    de estas líneas de campo pasan a través de la bobina 2. Denotaremos con
+    $\phi_{B2}$ el flujo magnético a través de cada<em> </em>espira de la
+    bobina 2, causado por la corriente $i_{1}$ en la bobina 1. El campo
+    magnético es proporcional a <em>i</em>1, de manera que B2 también es
+    proporcional a $i_{1}$. Cuando $i_{1}$ cambia, $\phi_{B2}$ cambia; este
+    flujo cambiante induce una fem $\epsilon_{2}$ en la bobina 2, dada por
+</p>
+<p align="center">
+    $\epsilon_{2}=\frac{-N_{2}d\Phi_{B2}}{dt}$<strong></strong>
+</p>
+<p>
+    Podríamos representar la proporcionalidad entre $\Phi_{B2}$ e $i_{1}$ en la
+    forma $\Phi_{B2}=(constante)i_{1}$, pero, en vez de ello, es más
+    conveniente incluir el número de espiras $N_{2}$ en la relación. Al
+introducir una constante de proporcionalidad $M_{21}$, llamada    <strong>inductancia mutua </strong>de las dos bobinas, escribimos:
+</p>
+<p align="center">
+    $N_{2}d\Phi_{B2}=M_{21}i_{1}$
+</p>
+<p>
+    donde B2 es el flujo a través de <em>una sola </em>espira de la bobina 2.
+    De ahí que,
+</p>
+<p align="center">
+    $\frac{N_{2}d\Phi_{B2}}{dt}=M_{21}\frac{di_{1}}{dt}$
+</p>
+<p>
+    Nos queda:
+</p>
+<p align="center">
+    $\epsilon_{2}=-M_{21}\frac{di_{1}}{dt}$
+</p>
+<p>
+    También se podría escribir la definición de la inductancia mutua, como:
+</p>
+<p align="center">
+    $N_{2}d\Phi_{B2}i_{1}=M_{21}$
+</p>
+<p>
+    $M_{21}$ siempre<em> </em>es igual a $M_{21}$, aun cuando las dos bobinas
+    no sean simétricas. A este valor común lo llamamos simplemente inductancia
+    mutua, y lo denotamos con el símbolo $M$, sin subíndices; este valor
+    caracteriza por completo la interacción de la fem inducida de las dos
+    bobinas. De esta forma, podemos escribir:
+</p>
+<p>
+    $\epsilon _{2}=-M\frac{di_{1}}{dt} y \epsilon_{1}=-M\frac{di_{2}}{dt}$
+</p>
+<p>
+    donde la inductancia mutua <em>M </em>es
+</p>
+<p>
+    $M=\frac{N_{2}\Phi _{B2}}{i_{1}}=\frac{N_{1}\Phi
+</p>
+<p>
+    _{B1}}{i_{2}}$
+</p>
+<p>
+    La unidad del SI para la inductancia mutua se llama <strong>henry </strong>
+    (1 H)
+</p>
+<p>
+    <strong>Circuitos RL</strong>
+</p>
+<p>
+    Un circuito que incluye tanto un resistor como un inductor, y tal vez una
+    fuente de fem, se llama circuito R-L. El inductor ayuda a impedir los
+    cambios rápidos en una corriente, lo que puede ser útil si se requiere una
+    corriente estable y la fuente externa tiene una fem fluctuante. El resistor
+    R puede ser un elemento de circuito individual, o ser la resistencia de los
+    devanados el inductor. Al cerrar el interruptor S1 se conecta la
+    combinación R-L a una fuente con fem constante E.
+</p>
+<p>
+    AGREGAR IMAGEN rl
+</p>
+<p>
+    Suponga que, en un principio, ambos interruptores están abiertos, y luego,
+    en cierto momento inicial <em>t</em>=0 se cierra el interruptor S1. La
+corriente no puede cambiar súbitamente de cero a algún valor final porque    <em>di</em>/<em>dt </em>y la fem inducida en el inductor serían infinitas.
+    En vez de ello, la corriente comienza a crecer con una tasa que sólo
+    depende del valor de <em>L </em>en el circuito. Sea <em>i </em>la corriente
+    en cierto momento <em>t </em>después de que se cerró el interruptor S1, y
+    sea <em>di</em>/<em>dt </em>su tasa de cambio en ese instante. La
+    diferencia de potencial Vab<em> </em>a través del resistor en ese momento
+    es: Vab=iR y la diferencia de potencial Vbc a través del inductor es
+    Vbc=Ldidt
+</p>
+<p>
+    Aplicamos la ley de mallas de Kirchhoff, comenzando en la terminal negativa
+    y avanzando en sentido antihorario alrededor del circuito:
+</p>
+<p>
+    $\epsilon -ir-L\frac{di}{dt}=0$
+</p>
+<p>
+    Se despeja <em>di/dt</em> y se encuentra que la tasa de aumento de la
+    corriente es
+</p>
+<p>
+    $\frac{di}{dt}=\frac{(\epsilon -iR)}{L}$
+</p>
+<p>
+    En el instante en que el interruptor S1 se cierra por primera vez, i=0 y la
+    caída del potencial a través de R es igual a cero. La tasa de cambio
+    inicial de la corriente es didt inicial=L. Cuando la corriente se acerca a
+    un valor final I de estado estable. Cuando alcanza ese valor, su tasa de
+    incremento es igual a cero. Entonces, didt final=0=ε-IRL=, I=R
+</p>
+<p>
+    Expresión para la corriente como función del tiempo dii-R=-RLdt. Esto
+    separa las variables, con i en el lado izquierdo y t en el derecho. Después
+    se integran ambos lados, cambiando el nombre de las variables de
+    integración a i’ y t’ y para utilizar i y t como límites superiores. Se
+    obtiene:
+</p>
+<p>
+    $\int_{0}^{i}{}\frac{di'}{(i'-\frac{\epsilon}{R})}=\int_{0}^{t}{}-\frac{R}{L}dt'$
+</p>
+<p>
+    $\ln ?(\frac{i-\frac{\epsilon }{R}}{(-\frac{\epsilon}{R})})=-\frac{R}{L}t$
+</p>
+<p>
+A continuación, se aplica la función exponencial a ambos lados y se despeja    <em>i</em>; el resultado final es:
+</p>
+<p>
+    $i=\frac{\epsilon }{R}(1-e^{-\frac{R}{L}t}?)$
+</p>
+<p>
+    Constante de tiempo del circuito:
+</p>
+<p>
+    $\tau =\frac{L}{R}$
+</p>
+<p>
+    Las consideraciones acerca de la energía brindan una perspectiva adicional
+    sobre el comportamiento de un circuito <em>R-L</em>. La tasa instantánea
+    con la que la fuente entrega energía al circuito es <em>P=</em> E<em>i</em>
+    . La tasa instantánea con que se disipa energía en el resistor es i2R, y la
+tasa con que se almacena energía en el inductor es <em>i</em><em>v</em>    <em>bc </em>=<em>Li di</em>/<em>dt. Cuando</em> se multiplica la ecuación,
+    obtenida por la ley de mallas, por <em>i </em>y se reordena, se encuentra
+    que:
+</p>
+<p>
+    $\epsilon i=i^{2}R+Li\frac{di}{dt}$
+</p>
+<p>
+    De la potencia Ε<em>i </em>suministrada por la fuente, la parte (i2R) se
+    disipa en el resistor, y la parte (<em>Li di</em>/<em>dt</em>) es la
+    energía almacenada en el inductor.
+</p>
+<p>
+    <strong>Circuitos RC</strong>
+</p>
+<p>
+    AGREGAR IMAGEN rc
+</p>
+<p>
+    Los circuitos RC son circuitos que están compuestos por una resistencia y
+    un condensador. Se caracteriza por que la corriente puede variar con el
+    tiempo. Cuando el tiempo es igual a cero, el condensador está descargado,
+    en el momento que empieza a correr el tiempo, el condensador comienza a
+    cargarse ya que hay una corriente en el circuito. Debido al espacio entre
+    las placas del condensador, en el circuito no circula corriente, es por eso
+    que se utiliza una resistencia. Cuando el condensador se carga
+    completamente, la corriente en el circuito es igual a cero.
+</p>
+<p>
+    AGREGAR IMAGEN ccapacitor
+</p>
+<p>
+    <strong>Carga de un capacitor</strong>
+</p>
+<p>
+    La figura muestra un circuito simple para cargar un capacitor. Un circuito
+    como éste, que tiene un resistor y un capacitor conectados en serie, se
+    llama <strong>circuito <em>R-C</em></strong>. Se ha idealizado la batería
+    (o fuente de energía eléctrica) para que tenga una fem ε constante y una
+    resistencia eléctrica igual a cero (<em>r=</em>0), y se desprecia la
+    resistencia de todos los conductores de conexión. Se comienza con el
+capacitor descargado (figura a); después, en cierto momento inicial,    <em>t </em>= 0, se cierra el interruptor, lo que completa el circuito y
+    permite que la corriente alrededor de la espira comience a cargar el
+    capacitor (figura b). Para todos los efectos prácticos, la corriente
+    comienza en el mismo instante en todas las partes conductoras del circuito,
+    y en todo momento la corriente es la misma en todas ellas.
+</p>
+<p>
+    Como el capacitor de la figura al principio está descargado, la diferencia
+de potencial <em>v</em><em>bc </em>a través suyo es igual a cero en    <em>t </em>= 0. En ese momento, según la regla de Kirchhoff de las espiras,
+    el voltaje <em>v</em><em>ab </em>a través del resistor <em>R </em>es igual
+    a la fem de la batería ε. La corriente inicial (<em>t </em>= 0) a través
+del resistor, que llamaremos <em>I</em>0, está dada por la ley de Ohm:    <em>I</em>0 = <em>v</em><em>ab</em>/<em>R=</em> ε/<em>R</em>.
+</p>
+<p>
+    A medida que el capacitor se carga, su voltaje <em>v</em><em>bc </em>
+    aumenta y la diferencia de potencial <em>v</em><em>ab </em>a través del
+    resistor disminuye La suma de estos dos voltajes es constante e igual a ε.
+    Después de un periodo largo, el capacitor está cargado por completo, la
+    corriente baja a cero y la diferencia de potencial <em>v</em><em>ab </em>a
+    través del resistor se vuelve cero. En ese momento aparece la totalidad de
+    la fem ε de la batería a través del capacitor y <em>v</em><em>bc</em>=ε.
+</p>
+<p>
+    Sea <em>q </em>la carga en el capacitor e <em>i </em>la corriente en el
+    circuito al cabo de cierto tiempo <em>t </em>después de haberse cerrado el
+    interruptor. Asignamos el sentido positivo a la corriente en
+    correspondencia al flujo de carga positiva hacia la placa izquierda del
+    capacitor, como se aprecia en la figura b. Las diferencias de potencial
+    instantáneas <em>v</em><em>ab </em>y <em>v</em><em>bc </em>son
+</p>
+<p>
+    $V_{ab}=iR V_{bc}=\frac{q}{C}$
+</p>
+<p>
+    Con la regla de Kirchhoff de las espiras, se obtiene:
+</p>
+<p>
+    $\epsilon -iR-\frac{q}{C}=0$
+</p>
+<p>
+El potencial cae en una cantidad <em>iR </em>conforme se va de <em>a </em>a    <em>b</em>, y en <em>q</em>/<em>C </em>al pasar de <em>b </em>a <em>c</em>.
+    Al despejar <em>i </em>en la ecuación, se encuentra que:
+</p>
+<p>
+    $i=\frac{\epsilon }{R}-\frac{q}{RC}=0$
+</p>
+<p>
+    En el momento <em>t </em>= 0, cuando el interruptor se encuentra cerrado,
+    el capacitor está descargado y <em>q </em>= 0. Al sustituir <em>q </em>= 0
+    en la ecuación, se encuentra que la corriente <em>inicial I</em>0 está dada
+    por <em>I</em>0 = ε/<em>R</em>, como ya se había dicho. Si el capacitor no
+    estuviera en el circuito, el último término de la ecuación (26.10) no
+    estaría presente, por lo que la corriente sería <em>constante </em>e igual
+a ε/<em>R</em>. Conforme la carga se incrementa, el término <em>q</em>/    <em>RC </em>se hace más grande y la carga del capacitor tiende a su valor
+    final, al que llamaremos <em>Q</em>f. La corriente disminuye y finalmente
+    se vuelve cero. Cuando <em>i </em>= 0, la ecuación da:
+</p>
+<p>
+    $\frac{\epsilon }{R}=\frac{Qf}{RC} Qf=C\epsilon $
+</p>
+<p>
+    Es posible obtener expresiones generales para la carga <em>q </em>y la
+    corriente <em>i </em>como funciones del tiempo
+</p>
+<p>
+    $\frac{dq}{dt}=\frac{\epsilon}{R}-\frac{q}{RC}=-\frac{1}{RC}(q-C\epsilon )$
+</p>
+<p>
+    $\frac{dq}{q-C\epsilon }=-\frac{dt}{RC} $
+</p>
+<p>
+    luego se integran ambos lados. Podemos cambiar las variables de integración
+a <em>q’</em> y <em>t’</em> con la finalidad de utilizar <em>q </em>y<em>t </em>para los límites superiores. Los límites inferiores son    <em>q </em>r = 0 y <em>t </em>r = 0:
+</p>
+<p>
+    $\int_{0}^{q}{}\frac{dq'}{q-C\epsilon}=\int_{0}^{t}{}-\frac{dt'}{RC} $
+</p>
+<p>
+    Se efectúa la integración y luego se aplica la función exponencial (es
+    decir, se toma el logaritmo inverso) y se despeja <em>q, </em>para obtener:
+</p>
+<p>
+    $q=C\epsilon(1-e^{-\frac{t}{RC}})=Qf(1-e^{-\frac{t}{RC}})$
+</p>
+<p>
+    La corriente instantánea <em>i </em>tan sólo es la derivada con respecto al
+    tiempo de la ecuación anterior:
+</p>
+<p>
+    $i=\frac{dq}{dt}=\frac{\epsilon}{r}e^{-\frac{t}{RC}}=I_{0}e^{-\frac{t}{RC}}$
+</p>
+<p>
+    Constante de tiempo del circuito:
+</p>
+<p>
+    $\tau =RC$
+</p>
+<p>
+    <strong>Descarga de un capacitor</strong>
+</p>
+<p>
+    AGREGAR IMAGEN dcapacitor
+</p>
+<p>
+    Otra vez, <em>i </em>y <em>q </em>representan la corriente y la carga como
+    función del tiempo en cierto instante después de que se hizo la conexión.
+    En la figura b se hace la misma selección del sentido positivo para la
+    corriente que en la figura b anterior. Entonces, la regla de Kirchhoff de
+    las espiras da la ecuación, pero con = 0; es decir,
+</p>
+<p>
+    $i=\frac{dq}{dt}=-\frac{q}{RC}$
+</p>
+<p>
+    Carga: $q=Q_{0}e^{-\frac{t}{RC}}$
+</p>
+<p>
+    Corriente instantánea: $
+</p>
+<p>
+    i=\frac{dq}{dt}=-\frac{Q_{0}}{RC}e^{-frac{t}{RC}}=I_{0}e^{\frac{t}{RC}}$
+</p>
+<p>
+    Potencia:
+</p>
+<p>
+    $\epsilon i=i^{2}R+\frac{iq}{C}$
+</p>
+<p>
+    <strong>Circuito LC</strong>
+</p>
+<p>
+    Un circuito que contiene un inductor y un capacitor muestra un modo
+    completamente nuevo de comportamiento, caracterizado por una corriente y
+    una carga oscilantes. Esto está en claro contraste con el enfoque
+    exponencial de la situación de estado estable que hemos visto para
+    circuitos tanto R-C como R-L. En el circuito L-C de la figura se carga el
+    capacitor con una diferencia de potencial Vm y una carga inicial Q= CVm en
+    su placa izquierda y luego se cierra el interruptor.
+</p>
+<p>
+    AGREGAR IMAGEN lc
+</p>
+<p>
+    El capacitor comienza a descargar a través del inductor. A causa de la fem
+    inducida en el inductor, la corriente no puede cambiar en forma
+instantánea; comienza en cero y finalmente alcanza un valor máximo    <em>I</em>m. Durante esta intensificación el capacitor se está descargando.
+    En cada instante el potencial del capacitor es igual a la fem inducida, por
+    lo que a medida que el capacitor se descarga, la <em>tasa de cambio </em>de
+    la corriente disminuye. Cuando el potencial del capacitor se reduce a cero,
+    la fem inducida también es igual a cero, y la corriente se ha estabilizado
+    en su valor máximo <em>I</em>m. La diferencia de potencial entre sus
+    terminales (y las del inductor) ha disminuido hasta cero, y la corriente
+    alcanzó su valor máximo <em>I</em>m.
+</p>
+<p>
+    La diferencia de potencial entre sus terminales (y las del inductor) ha
+    disminuido hasta cero, y la corriente alcanzó su valor máximo <em>I</em>m.
+    Aunque en la figura b el capacitor está completamente descargado, la
+    corriente persiste y el capacitor comienza a cargarse con polaridad opuesta
+    a la de su estado inicial. Conforme disminuye la corriente, la magnitud del
+campo magnético también lo hace, lo que induce una fem en el inductor en el    <em>mismo </em>sentido que el de la corriente; esto retarda la disminución
+    de la corriente. Con el tiempo, la corriente y el campo magnético
+disminuyen a cero y el capacitor queda cargado en el sentido    <em>opuesto </em>al de su polaridad inicial (figura c), con una diferencia
+    de potencial 2Vm y carga 2Q en su placa izquierda.
+</p>
+<p>
+    El proceso se repite ahora en sentido opuesto; un poco después, el
+    capacitor se ha descargado una vez más y en el inductor hay una corriente
+    en el sentido opuesto (figura d). Más tarde, la carga del capacitor
+    recupera su valor original (figura a), y todo el proceso se repite. Si no
+    hay pérdidas de energía, las cargas en el capacitor siguen oscilando hacia
+atrás y adelante indefinidamente. Este proceso se llama    <strong>oscilación eléctrica.</strong>
+</p>
+<p>
+    <strong>Oscilaciones eléctricas en un circuito </strong>
+    <strong><em>LC</em></strong>
+</p>
+<p>
+    AGREGAR IMAGEN lc2
+</p>
+<p>
+    Se aplica la ley de Kirchhoff de las mallas al circuito de la figura.
+    Partiendo de la esquina inferior derecha del circuito y sumando los
+    voltajes conforme se recorre la espira en el sentido horario, se obtiene lo
+    siguiente:
+</p>
+<p>
+    $-L\frac{di}{dt}-\frac{q}{c}=0$
+</p>
+<p>
+    Como <em>i=</em> <em>dq/dt</em>, se deduce que <em>di</em>/<em>dt </em>
+    =d2q/dt2. Sustituimos esta expresión en la ecuación anterior y se divide
+    entre -<em>L </em>para obtener
+</p>
+<p>
+    $\frac{d^{2}q}{dt^{2}}+\frac{1}{LC}q=0$
+</p>
+<p>
+    La carga <em>q </em>del capacitor está dada por: q=Qcos(ωt+ϕ)y la
+    frecuencia angular de la oscilación está dada por ω=1LC. Al hacer esto,
+encontrará que la corriente instantánea <em>i </em>= <em>dq</em>/    <em>dt </em>está dada por: i=-ωtQsen(ωt+ϕ)
+</p>
+<p>
+    <strong>Energía en un circuito L-C</strong>
+</p>
+<p>
+    También se puede analizar el circuito <em>L-C </em>desde la perspectiva de
+    la energía. El circuito <em>L-C </em>también es un sistema conservativo.
+    Otra vez, sea <em>Q </em>la carga máxima del capacitor. La energía del
+    campo magnético, $\frac{1}{2}Li^{2}$, en el inductor en cualquier momento
+    corresponde a la energía cinética $\frac{1}{2}mv^{2}$ del cuerpo oscilante,
+    y la energía del campo eléctrico q2/2C en el capacitor corresponde a la
+    energía potencial elástica del resorte. La suma de estas energías es igual
+    a la energía total Q2/2C del sistema:
+</p>
+<p>
+    $\frac{1}{2}Li^{2}+\frac{q^{2}}{2C}=\frac{Q^{2}}{2C}$
+</p>
+<p>
+    La energía total en el circuito <em>L-C </em>es <em>constante</em>; oscila
+    entre las formas magnética y eléctrica, del mismo modo que la energía
+    mecánica total en el movimiento armónico simple es constante y oscila entre
+    las formas cinética y potencial. Al despejar <em>i </em>en la ecuación
+    anterior se encuentra que cuando la carga en el capacitor es <em>q</em>, la
+    corriente <em>i </em>es:
+</p>
+<p>
+    $i=\pm \sqrt{\frac{1}{LC}}\sqrt{Q^{2}-q^{2}}$
+</p>
+<p>
+    <strong>
+        <a
+            href="http://circuitosrcl.blogspot.com/2007/11/circuito-rcl-debemos-considerar-ahora.html"
+        >
+            Circuito RCL
+        </a>
+    </strong>
+</p>
+<p>
+    Suponga que un inductor con inductancia <em>L </em>y un resistor de
+    resistencia <em>R </em>están conectados en serie entre las terminales de un
+capacitor cargado, para formar un    <strong>circuito en serie <em>L-R-C</em></strong>. Como antes, el capacitor
+    comienza a descargarse tan pronto como el circuito está completo. Si la
+    resistencia <em>R </em>es relativamente pequeña, el circuito aún oscila,
+    pero con un <strong>movimiento armónico amortiguado </strong>(figura), y se
+    dice que el circuito está <strong>subamortiguado</strong>. Si <em>R </em>se
+    incrementa, las oscilaciones cesan con más rapidez. Cuando <em>R </em>
+alcanza cierto valor, el circuito deja de oscilar; está    <strong>críticamente amortiguado </strong>(figura b). Para valores aún
+    mayores de <em>R</em>, el circuito está <strong>sobreamortiguado </strong>
+    (figura c), y la carga del capacitor se acerca a cero aún más lentamente.
+</p>
+<p>
+    AGREGAR IMAGEN rcl
+</p>
+<p>
+    <strong>Análisis Circuito LRC</strong>
+</p>
+<p>
+    Para analizar con detalle el comportamiento del circuito L-R-C,
+    consideremos el circuito que aparece en la figura 30.17. Las indicaciones
+    de los sentidos positivo de <em>q </em>e <em>i </em>son las mismas que para
+    el circuito L-C.
+</p>
+<p>
+    AGREGAR IMAGEN lrc
+</p>
+<p>
+    Primero se cierra el interruptor en la posición hacia arriba, para conectar
+    al capacitor con una fuente de fem ε durante un tiempo suficientemente
+    largo para asegurar que el capacitor adquiera su carga final $\textit{Q
+    }=\textit{C}_{\epsilon}$ que toda oscilación inicial haya cesado. Entonces,
+    en el momento <em>t </em>= 0 se coloca al interruptor en la posición hacia
+    abajo, con lo que se elimina a la fuente del circuito y se pone al
+    capacitor en serie con el resistor y el inductor. Note que la corriente
+    inicial es negativa y con sentido opuesto al de <em>i </em>que se ilustra
+    en la figura.
+</p>
+<p>
+se aplica la ley de Kirchhoff de las mallas. Partiendo del punto    <em>a </em>y recorriendo el circuito en el sentido abcda, se obtiene la
+    ecuación:
+</p>
+<p>
+    $$-iR-L\frac{di}{dt}-\frac{q}{C}=0$
+</p>
+<p>
+    $
+</p>
+<p>
+    Al sustituir $\textit{i }$<em> </em>con $\textit{dq}/\textit{dt}$y
+    reordenar, se obtiene:
+</p>
+<p>
+    $
+</p>
+<p>
+    \frac{d^{2}q}{dt^{2}}+\frac{R}{L}\frac{dq}{dt}+\frac{1}{LC}q=0$
+</p>
+<p>
+    Hay métodos generales para obtener soluciones de la ecuación anterior. La
+    forma de la solución es diferente para los casos del circuito sub
+    amortiguado (<em>R </em>pequeña) y sobre amortiguado (<em>R </em>grande).
+    Cuando R2 es menor que 4<em>L</em>/<em>C</em>, la solución tiene la forma
+</p>
+<p>
+    $q=Ae^{-(\frac{R}{2L})t}\cos
+</p>
+<p>
+    ?(\sqrt{\frac{1}{LC}-\frac{R^{2}}{4L^{2}}t}+\varphi )$
+</p>
+<p>
+    donde <em>A </em>y son constantes.
+</p>
+<p>
+    La frecuencia angular de las oscilaciones amortiguadas está dada por
+</p>
+<p>
+    $\omega ^{'}=\sqrt{\frac{1}{LC}-\frac{R^{2}}{4L^{2}}}$
+</p>
+<p>
+    <strong></strong>
+</p>
+<p>
+    <strong>Potencia en Corriente Alterna</strong>
+</p>
+<p>
+    En
+    <a href="https://www.fisicapractica.com/corriente-alterna.php">
+        corriente alterna
+    </a>
+    existen desfasajes entre la tensión y la corriente debido a las capacidades
+    e inductancias del circuito que crean campos eléctricos y magnéticos.
+</p>
+<p>
+    <br/>
+    La energía que almacenan temporalmente estos campos se devuelve al circuito
+    (por ejemplo, cuando el capacitor se descarga o el campo magnético del
+    inductor se autoinduce). Esto hace que la potencia total suministrada por
+    la fuente no siempre sea la consumida por el circuito. Una parte de la
+    potencia se utiliza para crear esos campos, pero no se consume. Sin
+    embargo, la fuente debe proveerla para el funcionamiento del circuito.
+</p>
+<p>
+    <strong>Potencia activa, reactiva y aparente</strong>
+</p>
+<p>
+    Encontramos en este tipo de circuito tres valores distintos de potencia,
+    denominados potencia activa, potencia reactiva y potencia aparente.
+</p>
+<p>
+    <strong>Potencia activa (P)</strong>
+</p>
+<p>
+    Es la potencia consumida en el circuito (por ejemplo, convertida en calor,
+    energía mecánica, etc.). Se mide en watt.
+</p>
+<p>
+    $P=I_{EF}^{2}\cdot R$
+</p>
+<p>
+    <strong>Potencia reactiva (Q)</strong>
+</p>
+<p>
+    Es la potencia necesaria para crear los campos eléctricos y magnéticos. Es
+    una potencia devuelta por el circuito, pero que está presente en el
+    funcionamiento. Se mide en VAR (volt ampere reactivos), una unidad
+    equivalente al watt.
+</p>
+<p>
+    $Q=I_{EF}^{2}\cdot (X_{L}-X_{C})$
+</p>
+<p>
+    <strong>Potencia aparente (S)</strong>
+</p>
+<p>
+    Es la suma (en forma vectorial) de las potencias activa y reactiva. Su
+    valor depende del ángulo de desfasaje. Es la potencia total que debe
+    entregar el generador. Se mide en VA (volt ampere), una unidad equivalente
+    al watt.
+</p>
+<p>
+    $S=I_{EF}^{2}\cdot Z$
+</p>
+<p>
+    <strong>Triángulo de potencia</strong>
+</p>
+<p>
+    Podemos representar a las tres potencias en un triángulo rectángulo en
+    donde el cateto horizontal es la potencia activa, el cateto vertical es la
+    potencia reactiva y la hipotenusa es la potencia aparente.
+    <br/>
+    <br/>
+    El siguiente ejemplo es un triángulo de potencias para un circuito
+    inductivo ya que la potencia reactiva es positiva.
+    <br/>
+    AGREGAR IMAGEN triangulopotencia
+</p>
+<p>
+    El siguiente ejemplo es un triángulo de potencias para un circuito
+    inductivo con menor potencia reactiva que el ejemplo anterior.
+</p>
+<p>
+    AGREGAR IMAGEN triangulopotencia2
+</p>
+<p>
+    El siguiente triángulo corresponde a un circuito capacitivo ya que la
+    potencia reactiva es negativa.
+    <br/>
+    <br/>
+    AGREGAR IMAGEN triangulopotencia3
+</p>

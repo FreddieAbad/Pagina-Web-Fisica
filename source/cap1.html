@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/feym.css">
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <title>Aprende Fisica</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!--Agregar Latex en HTML-->
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+  </script>
+  <script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-inverse ">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar">sdfgsdf</span>
+            <span class="icon-bar">sgdf</span>
+            <span class="icon-bar">sgdf</span>
+          </button>
+          <a href="index2.html" class="navbar-brand" style="color:rgb(255, 255, 255);">Aprendiendo Electro-Magnetismo</a>
+        </div>
+        <div id="myNavbar" class="navbar-collapse">
+          <ul class="nav navbar-nav" >
+            <li class="active"><a href="index2.html">Inicio</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Capitulos<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="cap1.html">Cap. 1</a></li>
+                <li><a href="cap2.html">Cap. 2</a></li>
+                <li><a href="cap3.html">Cap. 3</a></li>
+                <li><a href="cap4.html">Cap. 4</a></li>
+                <li><a href="cap5.html">Cap. 5</a></li>
+                <li><a href="cap6.html">Cap. 6</a></li>
+                <li><a href="cap7.html">Cap. 7</a></li>
+                <li><a href="cap8.html">Cap. 8</a></li>
+              </ul>
+            </li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="informes.html">Laboratorio</a></li>
+            <li><a href="team.html">Equipo</a></li>
+            <li><a href="ejercicios.html">Ejercicios</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--Barra de Navegacion-->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+        <div class="navegacion"><span class="">
+          <div class="dropup">
+            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" style="background:yellow;border: none;">
+              <span class="icon-menu4"></span></button>
+              <div class="dropdown-menu">
+                <li class="dropdown-header">Ir a</li>
+                <li><a href="index2.html">Introduccion</a></li>
+                <li><a href="cap1.html">Contenidos</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="informes.html">Informes</a></li>
+                <li class="divider"></li>
+                <li class="cabecera">Quiero informacion</li>
+                <form>
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Correo">
+                  </div>
+                  <div class="boton">
+                    <button type="submit" class="btn btn-default">Enviar</button>
+                  </div>
+                </form>
+              </li>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="capitulo1">
+          <h2>ATOMO</h2>
+          <div class="gif">
+            <a href="http://www.gifsanimados.org/cat-atomos-964.htm"><img src="http://www.gifsanimados.org/data/media/964/atomo-imagen-animada-0016.gif" border="0" alt="atomo-imagen-animada-0016" /></a>
+          </div>
+          <h3>Capitulo 1</h3>
+          <p><b>Contenido:</b> Resumen Introductorio, Conceptos Fundamentales de la Física Clásica, Estructura de la Materia, Modelos Atómicos y Niveles de Energía.</p>
+          <h4>Resumen Introductorio</h4>
+          <p>
+            La Fisica se encarga del estudio de la materia, la energía, el tiempo y el espacio, así como las interacciones entre estos elementos. El Objetivo Principal es
+            conocer al universo y comprender los diferentes fenómenos que en él se manifiestan.
+            <ul>
+              <li><b>Materia:</b> Todo aquello de lo que están hechos los cuerpos físicos (masa).</li>
+              <li><b>Espacio:</b> Lugar que ocupan los cuerpos (longitud, superficie volumen).</li>
+              <li><b>Tiempo:</b> Aquello que viene dado por los cambios que sufren los cuerpos (intervalo de tiempo - segundos, días, años).</li>
+            </ul>
+
+            <b>CANTIDAD ESCALARES</b></br>
+            <ul>
+              <li>Un escalar depende de un número. </li>
+              <li>Puede ser positivo o negativo.</li>
+              <li>Solo tiene magnitud y no dirección.</li>
+              <li>La temperatura, el volumen, la masa, densidad, carga eléctrica y el tiempo son magnitudes escalares.</li>
+            </ul>
+
+            <b>CANTIDAD VECTORIALES</b></br>
+            Es una cantidad física especificada por un número y una dirección.
+            <ul>
+              <li>Tiene magnitud dirección y sentido.</li>
+              <li>La fuerza y la velocidad son cantidades vectoriales.</li>
+              <li>Los vectores se designan con letra mayúscula o letra minúscula con una flecha sobre la misma.</li>
+            </ul>
+            <h4>VECTORES</h4>
+            Son segmentos orientados de recta que tiene magnitud y direccion.
+            <ul>
+              <li><b>Magnitud: </b> Valor numérico con su respectiva unidad. Estas unidades son físicas tales como Newtons, Libras, $\frac{m}{s^{2}}$ , $\frac{Km}{h}$, etc.</li>
+              <li><b>Dirección</b> Angulo que forma con el eje de la X. Si el ángulo dado está con respecto a Y, debe restarse 90 grados. En ocasiones un vector está horizontal o
+                vertical, en tales casos debe mencionarse como dirección el ángulo que corresponde al eje de coordenadas.</li>
+              </ul>
+              <div class="imagen">
+                <img src="../images/vectores.png" alt="" style="max-width: 50%;" alt="">
+              </div>
+            </br>
+          </br>
+          <b>Vector Unitario</b>
+          <p>
+            <ul>
+              <li>Vectores cuya magnitud es 1 y cuya dirección y sentido son los de alguno de los ejes del sistema cartesiano.</li>
+              <li>Es posible también definir vectores unitarios en direcciones arbitrarias (direcciones correspondientes a vectores concretos).</li>
+              <li>Para ello, se divide el vector para su magnitud. Al multiplicar un número cualquiera N por un vector unitario, se obtiene un vector cuya magnitud es de |N| y su dirección
+                y sentido corresponden al del vector unitario.</li>
+              </ul>
+            </br>
+            <div class="imagen">
+              <img src="../images/vectorU.png" alt="" style="max-width: 50%;" alt="" >
+            </div>
+          </br>
+          Representado por:
+          $\widehat{v}=\frac{\overrightarrow{v}}{ |v| }$
+          <p>
+            Cinemática del movimiento
+            <ul>
+              <li>Movimiento rectilíneo uniforme  </li>
+              <li>Movimiento rectilíneo uniformemente variado </li>
+              <li>Lanzamiento de un proyectil</li>
+              <li>Caída libre</li>
+
+            </ul>
+            <h4>Sistemas de fuerzas y equilibrio</h4>
+            Una partícula está en equilibrio cuando la fuerza resultante que actúa sobre ella es cero: $\sum F=0$.</br>
+
+            Si un objeto acelera cuando fuerzas externas actúan sobre él, entonces la fuerza neta es igual a su masa por aceleración: $F = m \cdot a$. </br>
+            <b>Diagrama de cuerpo libre: </b>
+            Es la representacion que muestra a un cuerpo aislado con todas las fuerzas (en forma de vectores) que actúan sobre él.
+            (peso, la normal, el rozamiento, la tensión, etc).
+            <div class="imagen">
+              <img src="../images/diagCL.png" alt="" style="max-width: 50%;" alt="">
+            </div>
+
+
+            <p>
+              <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; text-align: center;"><strong>Estructura de la materia</strong></p>
+              <p style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; text-align: justify;">En la antig&uuml;edad se consideraba que la materia era continua e indivisible.
+                En el siglo XVIII, diversos experimentos confirmaron que era posible separarla en part&iacute;culas m&aacute;s peque&ntilde;as. </p>
+                <ul style="list-style-type: square;">
+                  <li>La naturaleza est&aacute; formada por part&iacute;culas muy peque&ntilde;as e indivisibles: &aacute;tomos. </li>
+                  <li>La materia est&aacute; formada por part&iacute;culas indivisibles que no pueden crearse ni destruirse. </li>
+                  <li>Los &aacute;tomos de un elemento son id&eacute;nticos entre s&iacute; con el mismo peso y propiedades.</li>
+                </ul>
+                Los &aacute;tomos de distintos elementos pueden combinarse entre s&iacute; formando compuestos o mol&eacute;culas.</br>
+                Los átomos pueden combinarse en distintas proporciones formando compuestos distintos. $H^{2}O$, $HCl$, $NH_{3}$ </br>
+                <ul style="list-style-type: square;">
+                  <li>Una reacci&oacute;n qu&iacute;mica constituye solo un reordenamiento de &aacute;tomos, nunca la creaci&oacute;n o destrucci&oacute;n de los mismos. </li>
+                  <li>La colocaci&oacute;n de los electrones en los &aacute;tomos determina sus propiedades f&iacute;sico-qu&iacute;micas.</li>
+                </ul>
+                <div class="imagen">
+                  <img src="../images/estructuraMateria.png" alt="" style="max-width: 50%;" alt="">
+                </div>
+              </p>
+              <b>Estructura del átomo</b>
+              Su núcleo está compuesto por protones y neutrones, que constituye la parte positiva del átomo y que contiene casi toda su masa.</br>Los electrones, con carga negativa, giran
+              alrededor del núcleo.
+            </p>
+            <div class="imagen">
+              <img src="../images/estructuraAtomo.png" alt="" style="max-width: 50%;" alt="">
+            </div>
+            <div class="imagen">
+              <img src="../images/estructuraAtomo2.png" alt="" style="max-width: 50%;" alt="">
+            </div>
+            <div class="modelosatomicos">
+              <h3>Modelos Atomicos</h3>
+              <p>
+                Un modelo atómico es una representación que describe las partes que tiene un átomo. Modelo atómico de Dalton 1808-1810:
+                <ul>
+                  <li> Un elemento es una substancia que está formado por átomos iguales. </li>
+                  <li> Un compuesto es una substancia que está formada por átomos distintos combinados en una relación numérica sencilla y constante. </li>
+                  <li> En una relación química, los átomos no se crean ni se destruyen, sólo cambian las uniones entre ellos. </li>
+                  <li>  Se Consideraba que los átomos son esferas sólidas, como bolas de billar. </li>
+                </ul>
+
+                <h4>Modelo atómico de Thomson (1898) </h4>
+                <p>
+                  <ul>
+                    <li>En el átomo existe una partícula con carga eléctrica negativa a la que llamó electrón.  </li>
+                    <li>La materia solo muestra sus propiedades eléctricas en determinadas condiciones, entonces se supone que es neutra. </li>
+                    <li>El átomo es una esfera maciza en la que se encuentran incrustados los electrones. </li>
+                  </ul>
+                </p>
+                <div class="imagen">
+                  <img src="../images/thomson.png" alt="" style="max-width: 50%;" alt="">
+                </div>
+              </br></br>
+              <div class="panel panel-success">
+                <div class="panel-heading">CURIOSIDAD</div>
+                <div class="panel-body">
+                  <p>
+                    La <b>ley de Joule</b> debe su nombre a su descubridor el físico inglés <a href="https://es.wikipedia.org/wiki/Joseph_John_Thomson">Joseph John "J.J." Thomson
+                    </a>. Fue un científico británico, descubridor del electrón, de los isótopos e inventor del espectrómetro de masa.
+                    En 1906 fue
+                    galardonado con el Premio Nobel de Física.
+                    <br/>
+                  </p>
+                  <div>
+                    <br/>
+                  </div>
+                  <div class="imagen">
+                    <img src="../images/thomy.png" alt="" style="max-width: 50%;" alt="">
+                  </div>
+                </div>
+              </div>
+              <!-- Rutherford-->
+              <h4>Modelo atómico de Rutherford (1911)</h4>
+              <ul>
+                <li>Experimento de <a href="https://www.youtube.com/watch?v=Pc0LWkUWPI8">Rutherford</a>.
+                  <div class="imagen">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Pc0LWkUWPI8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>                    </div>
+                  </li>
+                  <li>Descubrió el protón, partícula que tiene la misma carga que el electrón pero distinta masa. </li>
+                  <li>La materia está prácticamente hueca, pues la mayor parte de las partículas α atraviesan sin desviarse. </li>
+                  <li>Las partículas α rebotan debido a las repulsiones electrostáticas que sufren al pasar cerca de las cargas positivas </li>
+                  <li>El átomo tiene un núcleo central en el que están concentradas la carga positiva y prácticamente toda su masa.</li>
+                  <li>El núcleo contiene protones en número igual al de electrones del átomo (número atómico).</li>
+                  <li>La carga positiva de los protones es compensada con la carga negativa de los electrones, que están fuera del núcleo. </li>
+                  <li>Los electrones giran a mucha velocidad en torno al núcleo y están separados de éste por una gran distancia. La suma de la masa de los protones y de los electrones
+                    no coincide con la masa total del átomo, por lo que Rutherford supuso que en el núcleo tenía que existir otro tipo de partículas. Posteriormente, James Chadwick (1932)
+                    descubrió estas partículas sin carga, y masa similar a la del protón, que recibieron el nombre de neutrones.</li>
+                  </ul>
+                  <div class="imagen">
+                    <img src="../images/rutherford.png" alt="" style="max-width: 50%;" alt="">
+                  </div>
+                </br></br>
+                <div class="panel panel-success">
+                  <div class="panel-heading">CURIOSIDAD</div>
+                  <div class="panel-body">
+                    <p>
+                      El <b>Modelo de Rutherford</b> debe su nombre a su descubridor el físico inglés <a href="https://es.wikipedia.org/wiki/Ernest_Rutherford">Ernest Rutherford
+                      </a>.  físico y químico neozelandés.
+                    </br>
+                    Se dedicó al estudio de las partículas radiactivas y logró clasificarlas en alfa ($\alpha$), beta ($\beta$) y gamma ($\gamma$). Halló que la radiactividad iba acompañada por una desintegración de los elementos,
+                    lo que le valió para ganar el Premio Nobel de Química en 1908. Se le debe un modelo atómico, con el que probó la existencia
+                    del núcleo atómico, en el que se reúne toda la carga positiva y casi toda la masa del átomo. Consiguió la primera transmutación
+                     artificial con la colaboración de su discípulo Frederick Soddy.
+                    </br>
+                    Durante la primera parte de su vida se consagró por completo a sus investigaciones, pasó la segunda mitad dedicado a la
+                    docencia y dirigiendo los Laboratorios Cavendish de Cambridge, en donde se descubrió el neutrón. Fue maestro de Niels Bohr y
+                     Otto Hahn.
+                      <br/>
+                    </p>
+                    <div>
+                      <br/>
+                    </div>
+                    <div class="imagen">
+                      <img src="../images/ruthy.png" alt="" style="max-width: 50%;" alt="">
+                    </div>
+                  </div>
+                </div>
+                <!--Bohr-->
+                <h4>Modelo atómico de Bohr (1913)</h4>
+                <ul>
+                  <li>Se basa en principios cuánticos de Plac y Einstein. El electrón se mueve en unas órbitas circulares permitidas (niveles de energía), donde no admite ni absorve energía. </li>
+                  <li>La diferencia con los demás modelos es, por ejemplo, que en el de Rutherford los electrones giran describiendo órbitas que pueden estar a una distancia cualquiera del núcleo,
+                    mientras que en el modelo de Bohr sólo se pueden encontrar girando en determinados niveles.</li>
+                  </ul>
+                  <div class="imagen">
+                    <img src="../images/bohr.png" alt="" style="max-width: 50%;" alt="">
+                  </div>
+                </br></br>
+                <div class="panel panel-success">
+                  <div class="panel-heading">CURIOSIDAD</div>
+                  <div class="panel-body">
+                    <p>
+                      El <b>Modelo de Bohr</b> debe su nombre a su descubridor el físico danés <a href="https://es.wikipedia.org/wiki/Niels_Bohr">Niels Henrik David Bohr
+                      </a>. Realizó contribuciones fundamentales para la comprensión de la
+                      estructura del átomo y la mecánica cuántica. Fue galardonado con el Premio Nobel de física en 1922.
+                      <br/>
+                    </p>
+                    <div>
+                      <br/>
+                    </div>
+                    <div class="imagen">
+                      <img src="../images/nbohr.png" alt="" style="max-width: 50%;" alt="">
+                    </div>
+                  </div>
+                </div>
+
+                  <h4>Modelo atómico actual Schrödinger y Heisenberg (1926)</h4>
+                  <ul>
+                    <li>Aquí se sustituye la idea de que el electrón se sitúa en determinadas capas de energía por la de orbital. </li>
+                    <li>Un orbital es una región del espacio en la que la probabilidad de encontrar al electrón es máxima.  </li>
+                    <li>Principio de incertidumbre: hay un límite en la precisión con la cual podemos determinar al mismo tiempo la posición y la velocidad de una partícula. El electrón se comporta
+                      como una onda en su movimiento alrededor del núcleo.  </li>
+                      <li>No es posible predecir la trayectoria exacta del electrón alrededor del núcleo.  </li>
+                      <li>Existen varias clases de orbitales que se diferencian por su forma y orientación en el espacio; así decimos que hay orbitales: <b>s, p, d, f.</b>  </li>
+                      <li>En cada nivel energético hay un número determinado de orbitales de cada clase. </li>
+                    </ul>
+                    <div class="imagen">
+                      <img src="../images/schrodinger.png" alt="" style="max-width: 50%;" alt="">
+                    </div>
+                    <div class="imagen">
+                      <img src="../images/schrodinger2.png" alt="" style="max-width: 50%;" alt="">
+                    </div>
+                  </p>
+schr
+<div class="panel panel-success">
+  <div class="panel-heading">CURIOSIDAD</div>
+  <div class="panel-body">
+    <p>
+      El <b>Modelo de Bohr</b> debe su nombre a su descubridor el físico alemán
+      <a href="https://es.wikipedia.org/wiki/Arnold_Sommerfeld">Arnold Johannes Wilhelm Sommerfeld
+      </a>.
+ fue un físico alemán que introdujo
+la constante de la estructura fina en 1919. </br>Además de sus aportaciones como científico en los campos de la física atómica
+y de la física cuántica, es destacable su labor como docente,
+siendo director de tesis doctorales de numerosos futuros ganadores del premio Nobel tanto en física como en química.​
+      <br/>
+    </p>
+    <div>
+      <br/>
+    </div>
+    <div class="imagen">
+      <img src="../images/schr.png" alt="" style="max-width: 50%;" alt="">
+    </div>
+  </div>
+</div>
+</br></br>
+
+                </div>
+                <div class="../images/nivelEnergia">
+                  <h4>Niveles de energía</h4>
+                  <ul>
+                    <li>Espectros atómicos obtenidos experimentalmente sugerían la existencia de estados energéticos de los átomos.  </li>
+                    <li>Los electrones tendrían diferentes energías que corresponden al nivel energético en el que se encontrarían. </li>
+                    <li>Bohr propuso el modelo atómico que tenía en cuenta la existencia de dichos niveles energéticos. </li>
+                    <li>Cada electrón ocupa un determinado escalón de energía en el átomo. </li>
+                    <li>Los electrones pueden pasar de un nivel energético a otro, mediante absorción (ganancia de energía) o emisión (pérdida de energía) de un fotón. </li>
+                  </ul>
+                </div>
+                <div class="estadoAtomo">
+                  <p>
+                    <p>Todos los electrones ocupan niveles de menor energía posible. </p>
+                    <ul>
+                      <li>Estado excitado del átomo: uno o varios electrones toman la energía necesaria para pasar a otro nivel superior, transmitiendo energía al átomo. </li>
+                      <li>Posteriormente regresan a sus estados iniciales emitiendo, en forma de fotones, la energía radiante correspondiente al cambio efectuado.</li>
+                      <li>La distribución de los electrones se correspondería con la existencia de los números cuánticos (principal, secundario, magnético y spin). A cada nivel energético le
+                        correspondía un valor del respectivo número cuántico principal designado por la letra minúscula n.
+                        <li>El nivel n=1, denominado con la letra s, carece de cualquier subnivel. </li>
+                        <li>El nivel n=2 se estructura en dos subniveles energéticos denominados s y p. </li>
+                        <li>El nivel n=3 consta de tres subniveles s, p y d. </li>
+                        <li> El nivel n=4 tiene cuatro subniveles s, p, d y f. </li>
+                      </li>
+                      <li>Cada subnivel admite un número distinto de electrones:
+                        <li>En cada subnivel s caben 2 electrones.</li>
+                        <li>En cada subnivel p caben 6 electrones.</li>
+                        <li>En cada subnivel d caben 10 electrones.</li>
+                        <li>En cada subnivel f caben 14 electrones.</li>
+                      </li>
+                    </ul>
+                  </p>
+                </div>
+                <div class="numcuantico">
+                  <h4>Números cuánticos de los electrones</h4>
+                  <div class="gif">
+                    <a title="By Cyp [GFDL (http://www.gnu.org/copyleft/fdl.html) or CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/)], from Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Rotating_spherical_harmonics.gif"><img width="256" alt="Rotating spherical harmonics" src="https://upload.wikimedia.org/wikipedia/commons/1/12/Rotating_spherical_harmonics.gif"></a>
+                  </div>
+                  <p>  Indican la posición y la energía de un electrón en un átomo.
+                    <ul>
+                      <li><b>Número cuántico principal [n]:</b> representa los niveles energéticos principales del electrón o las órbitas. Cuanto mayor sea el valor de n, mayor será la energía
+                        electrónica y la posibilidad de que el electrón esté más alejado del núcleo. Los valores de n son enteros positivos y varían entre 1 y 7.</li>
+                        <li><b>Número cuántico secundario [l]:</b> especifica los subniveles de energía dentro de los niveles energéticos principales donde la probabilidad de encontrar un electrón
+                          es alta si ese nivel energético está ocupado. Los valores permitidos son: l=0, 1, 2, 3, n-1. l = 0→s, l = 1→p, l = 2→d, l = 3→f</li>
+                          <li><b>Número cuántico magnético [ml]:</b> Define la orientación espacial de un orbital atómico y afecta poco la energía de un electrón. ml tiene valores permitidos entre
+                            –l y +l incluyendo el cero. Hay 2l+1 valores permitidos para ml , es decir, sólo hay un orbital s, hay tres orbitales p, cinco orbitales d y siete orbitales f para cada
+                            uno de los subniveles s, p, d, f.</li>
+                            <li><b>Número cuántico de giro del electrón (spin) [ms]:</b> expresa las dos direcciones de giro permitidas para el electrón en torno a su propio eje, sus valores son +1/2
+                              y -1/2.</li>
+                            </ul>
+                          </p>
+                          <div class="imagen">
+                            <img src="../images/estadocuantico.png" alt="" style="max-width: 90%;" alt="">
+                            <h5><i>Estado Cuantico de un electrón por sus niveles</i></h5>
+                          </div>
+
+                        </div>
+                      </p>
+                    </p>
+                  </div>
+                  <div class="division">
+                  </br>
+                  <hr/>
+                  </br>
+                  </div>
+                  <div class="vcap1">
+                    <div class="row" align="left">
+                      <div class="col-sm-6">
+                        <h3 align="center">Capitulo 1</h3>
+                        <h4>Temas Tratados</h4>
+
+                        <div class="col-md-2">
+                        </div>
+                        <div class="col-md-8">
+                          <ul>
+                            <li>Conceptos Fundamentales de la Física Clásica, Estructura de la Materia,</li>
+                            <li>Estructura de la Materia</li>
+                            <li>Modelos Atómicos y Niveles de Energía.</li>
+                          </ul>
+                        </div>
+                        <div class="col-md-2">
+                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                        <div class="col-md-1">
+                        </div>
+                        <div class="col-md-10">
+                          <iframe width="420" height="315"
+                          src="https://www.youtube.com/embed/videoseries?list=PLDXpdfOWL9enPfeXK8F0opeBrz6WE0OPs">
+                        </iframe>
+
+
+                        <!--              <iframe id="ytplayer" type="text/html" width="100%" height="300"
+                        src="https://www.youtube.com/embed/videoseries?list=PLAg6Lv5BbjjdvIcLQdVg4ROZnfuuQcqXB"
+                        frameborder="0" align="center" allowfullscreen >-->
+                      </div>
+                      <div class="col-md-1">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="col-md-2">
+
+                </div>
+              </div>
+            </div>
+            <footer>
+              <iframe src="footer.html" width="1500" height="400" frameBorder="0" scrolling="no"></iframe>
+            </footer>
+          </body>
+          </html>

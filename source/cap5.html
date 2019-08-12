@@ -1,0 +1,1220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <title>Aprende Fisica</title>
+  <link rel="stylesheet" href="../css/feym.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!--Agregar Latex en HTML-->
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+  </script>
+  <script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-inverse ">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar">sdfgsdf</span>
+            <span class="icon-bar">sgdf</span>
+            <span class="icon-bar">sgdf</span>
+          </button>
+          <a href="index2.html" class="navbar-brand">Aprendiendo Electro-Magnetismo</a>
+        </div>
+        <div id="myNavbar" class="navbar-collapse">
+          <ul class="nav navbar-nav" >
+            <li class="active"><a href="index2.html">Inicio</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Capitulos<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="cap1.html">Cap. 1</a></li>
+                <li><a href="cap2.html">Cap. 2</a></li>
+                <li><a href="cap3.html">Cap. 3</a></li>
+                <li><a href="cap4.html">Cap. 4</a></li>
+                <li><a href="cap5.html">Cap. 5</a></li>
+                <li><a href="cap6.html">Cap. 6</a></li>
+                <li><a href="cap7.html">Cap. 7</a></li>
+                <li><a href="cap8.html">Cap. 8</a></li>
+              </ul>
+            </li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="informes.html">Laboratorio</a></li>
+            <li><a href="team.html">Equipo</a></li>
+            <li><a href="ejercicios.html">Ejercicios</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--Barra de Navegacion-->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+        <div class="navegacion"><span class="">
+          <div class="dropup">
+            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" >
+              <span class="icon-menu4"></span></button>
+              <div class="dropdown-menu">
+                <li class="dropdown-header">Ir a</li>
+                <li><a href="index2.html">Introduccion</a></li>
+                <li><a href="cap1.html">Contenidos</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="informes.html">Informes</a></li>
+                <li class="divider"></li>
+                <li class="cabecera">Quiero informacion</li>
+                <form>
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Correo">
+                  </div>
+                  <div class="boton">
+                    <button type="submit" class="btn btn-default">Enviar</button>
+                  </div>
+                </form>
+              </li>
+            </div>
+          </div>
+        </div>      </div>
+        <div class="col-6">
+          <div class="capitulo5">
+            <h2>CORRIENTE ELÉCTRICA </h2>
+            <h3>Capitulo 5</h3>
+            <p><b>Contenido:</b> Fuerza electromotriz, Resistencia Eléctrica, Flujo de carga, Flujo de carga,  Densidad de corriente,  Ley de Ohm, Ley de Joule, Leyes de Kirchoff,  Circuitos de corriente continua</p>
+            <div class="resistencia">
+              <h4>
+                Introduccion
+              </h4>
+              <div>
+                <p>
+                  Una corriente el&#233;ctrica es todo movimiento de carga de una
+                  regi&#243;n a otra
+                </p>
+                <p>
+                  En situaciones electrost&#225;ticas el campo el&#233;ctrico dentro de
+                  un conductor es 0 y no hay corriente:
+                </p>
+                <div>
+                  <ul>
+                  </div>
+                  <p>
+                    <li>Esto no significa que todas la cargas en el interior del
+                      conductor est&#233;n en reposo.</li>
+                    </p>
+                    <p>
+                      <li>En un metal com&#250;n, como el Cu o Al, algunos de los
+                        electrones est&#225;n en libertad para moverse dentro del
+                        conductor</li>
+                      </p>
+                      <p>
+                        <li>Estos electrones libres se trasladan al azar en todas
+                          direcciones.</li>
+                        </p>
+                      </div>
+                      <div>
+                      </ul>
+                    </div>
+                    <div>
+                      <p>
+                        Si se establece un campo el&#233;ctrico constante y estable dentro del
+                        conductor:
+                      </p>
+                      <div>
+                        <ul>
+                        </div>
+                        <p>
+                          <li>Una part&#237;cula con carga se somete a una fuerza &#224;F=q
+                            E </li>
+                          </p>
+                          <p>
+                            <li>Las part&#237;culas con carga en movimiento en un conductor
+                              experimenta colisiones frecuentes con los iones de gran masa y casi
+                              fijos del material</li>
+                            </p>
+                            <p>
+                              <li>En cada colisi&#243;n la direcci&#243;n en que se mueve la
+                                part&#237;cula sufre un cambio aleatorio</li>
+                              </p>
+                              <p>
+                                <li>El efecto neto del E es que, adem&#225;s del movimiento al
+                                  azar de las part&#237;culas con carga dentro del conductor hay un
+                                  movimiento neto muy lento o deriva del traslado de las part&#237;culas
+                                  con carga, como grupo en direcci&#243;n de la fuerza
+                                  el&#233;ctrica</li>
+                                </p>
+                              </div>
+                              <div>
+                              </ul>
+                            </div>
+                            <div class="imagen">
+                              <img src="../images/corrienteintrod.png" alt="" style="max-width: 50%;" alt="">
+                            </div>
+
+                            <div>
+                              <br/>
+                            </div>
+                            <div class="imagen">
+                              <img src="../images/direcciondeflujo.png" alt="" style="max-width: 50%;" alt="">
+                            </div>
+
+                            <div>
+                              <br/>
+                            </div>
+                            <p>
+                              Direccion de flujo de corriente
+                            </p>
+                            <div>
+                              <ul>
+                              </div>
+                              <div>
+                                <p>
+                                  <li>En ambos casos hay un &#64258;ujo neto de carga positiva de
+                                    izquierda a derecha, y las cargas positivas terminan a la derecha de
+                                    las negativas.</li>
+                                  </p>
+                                  <p>
+                                    <li>De&#64257;nimos que la corriente, denotada por I, va en la
+                                      direcci&#243;n en la que hay un &#64258;ujo de carga
+                                      positiva.</li>
+                                    </p>
+                                    <p>
+                                      <li>Esta convenci&#243;n sobre la direcci&#243;n del &#64258;ujo
+                                        de la corriente se llama corriente convencional.</li>
+                                      </p>
+                                      <p>
+                                        <li>El signo de las cargas en movimiento tiene poca importancia
+                                          en el an&#225;lisis de los circuitos el&#233;ctricos</li>
+                                        </p>
+                                      </div>
+                                      <div>
+                                      </ul>
+                                    </div>
+                                    <div>
+                                      <br/>
+                                    </div>
+                                    <h4>
+                                      Corriente, Velocidad de Deriva y Densidad de Corriente
+                                      <br/>
+                                    </h4>
+                                    <div>
+                                      <br/>
+                                    </div>
+                                    <p>
+                                      De&#64257;nimos la corriente a trav&#233;s del &#225;rea de secci&#243;n
+                                      transversal A como la carga neta que &#64258;uye a trav&#233;s del
+                                      &#225;rea por unidad de tiempo. La corriente I a trav&#233;s del &#225;rea
+                                      es:
+                                      <br/>
+                                    </p>
+                                    <div>
+                                      <br/>
+                                    </div>
+                                    <div>
+                                      FORMULA CORRIENTE
+                                    </div>
+                                    <div>
+                                      <br/>
+                                    </div>
+                                    <div class="imagen">
+                                      <img src="../images/corriente.png" alt="" style="max-width: 50%;" alt="">
+                                    </div>
+
+                                    <div>
+                                      <br/>
+                                    </div>
+                                    <p>
+                                      Suponemos:
+                                    </p>
+                                    <div>
+                                      <ul>
+                                      </div>
+                                      <p>
+                                        <li>Que las cargas libres en el conductor son positivas.</li>
+                                      </p>
+                                      <p>
+                                        <li>Que hay n part&#237;culas con carga en movimiento por unidad de
+                                          volumen.</li>
+                                          <br/>
+                                        </p>
+                                        <div>
+                                          <br/>
+                                        </div>
+                                        <div class="imagen">
+                                          <img src="../images/corriente2.png" alt="" style="max-width: 50%;" alt="">
+                                        </div>
+
+                                        <div>
+                                          <br/>
+                                        </div>
+                                        <div class="imagen">
+                                          <img src="../images/corrientepasar.png" alt="" style="max-width: 50%;" alt="">
+                                        </div>
+
+                                        <div>
+                                          <br/>
+                                        </div>
+                                        <h4>
+                                          RESISTIVIDAD
+                                        </h4>
+                                        <div>
+                                          <br/>
+                                        </div>
+                                        <p>
+                                          Para ciertos materiales, en especial los met&#225;licos, a una temperatura
+                                          dada
+                                          <br/>
+                                        </p>
+                                        <div>
+                                          <br/>
+                                        </div>
+                                        <p>
+                                          $\vec{J}$ es casi directamente proporcional a $\vec{E}$
+                                        </p>
+                                        <div>
+                                          <br/>
+                                        </div>
+                                        <p>
+                                          La razon entre $E$ y $J$ es una constante, la resistividad $\rho$ de un
+                                          material se define como la razon de las magnitudes del campo electrico y la
+                                          densidad de corriente:
+                                        </p>
+                                        <div>
+                                          <br/>
+                                        </div>
+                                        <div class="formula">
+                                          $\rho = \frac{E}{J}$ </br>
+                                          Definicion de Resistividad.
+                                        </div>
+                                        <div class="formula">
+                                          Unidades de $\rho = \frac{(\frac{V}{m})}{(\frac{A}{m^{2}})} = V \cdot
+                                          \frac{m}{A}$ </br>(Ohm-metros)
+                                        </div>
+                                        <div>
+                                          <br/>
+                                        </div>
+                                        <div class="imagen">
+                                          <img src="../images/tablaresistividad.png" alt="" style="max-width: 50%;" alt="">
+                                        </div>
+
+                                        <div>
+                                          <br/>
+                                        </div>
+                                        <h4>
+                                          Resistividad y temperatura
+                                        </h4>
+                                        <div>
+                                          <br/>
+                                        </div>
+                                        <p>
+                                          La resistividad de un conductor met&#225;lico casi siempre se incrementa al
+                                          aumentar la temperatura (hasta 100 &#176;C, aproximadamente)
+                                          <br/>
+                                        </p>
+                                        <div>
+                                          <br/>
+                                        </div>
+                                        <div class="formula">
+                                          $\rho (T) = \rho_{0}[1 + \alpha(T - T_{0})]$
+                                        </div>
+                                        <div class="formula">
+                                          (Dependencia de la resistividad con respecto a la temperatura)
+                                        </div>
+                                        <div>
+                                          <br/>
+                                        </div>
+                                        <div class="imagen">
+                                          <img src="../images/tablacoeficientestemperatura.png" alt="" style="max-width: 50%;" alt="">
+                                        </div>
+
+                                        <div>
+                                          <br/>
+                                        </div>
+                                        <h4>
+                                          LEY DE OHM
+                                        </h4>
+                                        <div>
+                                          <br/>
+                                        </div>
+                                        <p>
+                                          La razon de $V$ a $I$ para un conductor particular se llama resistencia, R:
+                                        </p>
+                                        <div class="formula">
+                                          $R = \frac{V}{I}$
+                                          $R=\frac{\rho L}{A}$
+                                        </br>
+                                        (Relacion entre la resistencia y la resistividad)
+                                      </br>
+                                      $R(T) = R_{0}[1 + \alpha(T - T_{0})]$
+                                    </div>
+                                    <div>
+                                      <br/>
+                                    </div>
+                                    <div class="imagen">
+                                      <img src="../images/ohm.png" alt="" style="max-width: 50%;" alt="">
+                                    </div>
+
+                                    <div>
+                                      <br/>
+                                    </div>
+                                    <h4>
+                                      RESISTORES
+                                    </h4>
+                                    <div>
+                                      <br/>
+                                    </div>
+                                    <div class="imagen">
+                                      <img src="../images/codigocolor.png" alt="" style="max-width: 50%;" alt="">
+                                    </div>
+
+                                    <div>
+                                      <br/>
+                                    </div>
+                                    <div class="imagen">
+                                      <img src="../images/resistor.png" alt="" style="max-width: 50%;" alt="">
+                                    </div>
+
+                                    <div>
+                                      <br/>
+                                    </div>
+                                    <h4>
+                                      SIMBOLOGIA
+                                    </h4>
+                                    <div>
+                                      <br/>
+                                    </div>
+                                    <div class="imagen">
+                                      <img src="../images/simbologia.png" alt="" style="max-width: 50%;" alt="">
+                                    </div>
+
+                                    <div>
+                                      <br/>
+                                    </div>
+                                    <h4>
+                                      FUERZA ELECTROMOTRIZ Y CIRCUITOS
+                                    </h4>
+                                    <p>
+                                      Para que un conductor tenga una corriente constante, debe ser parte de una
+                                      trayectoria que forme una espira cerrada o circuito completo.
+                                    </p>
+                                    <div>
+                                      <div>
+                                        <br/>
+                                      </div>
+                                      <p>
+                                        En un circuito el&#233;ctrico debe haber en alg&#250;n punto (del
+                                        camino cerrado o circuito) un dispositivo que act&#250;e como la bomba
+                                        hidr&#225;ulica de la fuente. En este dispositivo una carga viaja
+                                        &#8220;hacia arriba&#8221;, del lugar donde hay menos energ&#237;a
+                                        potencial hacia donde hay m&#225;s, aun cuando la fuerza
+                                        electrost&#225;tica trate de llevarla de la mayor energ&#237;a
+                                        potencial a la menor. La direcci&#243;n de la corriente en ese
+                                        dispositivo es del potencial m&#225;s bajo al m&#225;s alto,
+                                        exactamente lo opuesto de lo que ocurre en un conductor ordinario.
+                                      </p>
+                                      <div>
+                                        <br/>
+                                      </div>
+                                      <p>
+                                        La in&#64258;uencia que hace que la corriente &#64258;uya del potencial
+                                        menor al mayor se
+                                      </p>
+                                      <p>
+                                        llama fuerza electromotriz (se abrevia fem).
+                                      </p>
+                                    </div>
+                                    <div>
+                                      <br/>
+                                    </div>
+                                    <div class="imagen">
+                                      <img src="../images/fem.png" alt="" style="max-width: 50%;" alt="">
+                                    </div>
+
+                                    <div>
+                                      <br/>
+                                    </div>
+                                    <h4>
+                                      RESISTENCIA INTERNA
+                                    </h4>
+                                    <div>
+                                      <br/>
+                                    </div>
+                                    <p>
+                                      La carga en movimiento a trav&#233;s del material de cualquier fuente real
+                                      encuentra una resistencia, a la que llamamos resistencia interna de la
+                                      fuente, y se denota con r.
+                                      <br/>
+                                    </p>
+                                    <div class="formula">
+                                      $V_{ab} = \epsilon - Ir$
+                                      (Voltaje terminal, fuente con resistencia interna).
+                                    </br>
+                                    $\epsilon - Ir = IR$
+                                  </br>
+                                  $I=\frac{\epsilon}{R + r}$
+
+                                  (Corriente, fuente con resistencia interna).
+                                </div>
+                                <div>
+                                  <br/>
+                                </div>
+                                <div class="imagen">
+                                  <img src="../images/resistenciainterna.png" alt="" style="max-width: 50%;" alt="">
+                                </div>
+
+                              </div>
+                              <div class="rserieparalelo">
+                                <h4>
+                                  RESISTENCIAS EN SERIE
+                                </h4>
+                                <div>
+                                  <br/>
+                                </div>
+                                <div class="formula">
+                                  $V_{ax} = IR_{1}$
+                                </br>
+                                $V_{xy} = IR_{2}$
+                                <br/>
+
+                                $V_{yb} = IR_{3}$
+                                <br/>
+                              </div>
+                              <div>
+                                <br/>
+                              </div>
+                              <p>
+                                Las diferencias de potencial a través de cada resistor no necesitan ser las
+                                mismas (excluyendo el caso de ser iguales las tres). La diferencia de
+                                potencial $V_{ab}$ a través de toda la combinación es la suma de estas
+                                diferencias de potenciales individuales:
+                              </p>
+                              <div>
+                                <br/>
+                              </div>
+                              <div class="formula">
+                                $V_{ab} = V_{ax} + V_{xy} + V_{yb} = I(R_{1} + R_{2} + R_{3})$
+                              </div>
+                              <div>
+                                Por lo que:
+                              </div>
+                              <div class="formula">
+                                $\frac{V_{ab}}{I} = R_{1} + R_{2} + R_{3}$
+                                <br/>
+                              </div>
+                              <div>
+                                <br/>
+                              </div>
+                              <p>
+                                La razón $\frac{V_{ab} }{i} $ es, la resistencia equivalente $R_{eq}$. Por
+                                lo tanto,
+                              </p>
+                              <div class="formula">
+                                $R_{eq} = R_{1} + R_{2} + R_{3}$
+                              </div>
+                              <p>
+                                Es fácil generalizar esto a cualquier numero de resistores:
+                              </p>
+                              <div>
+                                <div class="formula">
+                                  $R_{eq} = R_{1} + R_{2} + R_{3}$
+                                </div>
+                              </div>
+                              <div class="formula">
+                                (Resistores en serie)
+                              </div>
+                              <div>
+                                <br/>
+                              </div>
+                              <div class="imagen">
+                                <img src="../images/rserie.png" alt="" style="max-width: 50%;" alt="">
+                              </div>
+
+                              <div>
+                                <br/>
+                              </div>
+                              <h4>
+                                RESISTENCIAS EN PARALELO
+                              </h4>
+                              <div>
+                                <br/>
+                              </div>
+                              <div class="formula">
+                                $I_{1} = \frac{V_{ab}}{R_{1}}$
+                              </br>
+                              $I_{2} = \frac{V_{ab}}{R_{2}}$
+                            </br>
+                            $I_{3} = \frac{V_{ab}}{R_{3}}$
+                            <br/>
+                          </div>
+                          <div>
+                            <br/>
+                          </div>
+                          <p>
+                            En general, la corriente es diferente a traves de cada resistor. Como la
+                            carga no se acumula o escapa del punto $a$, la corriente total $I$ debe ser
+                            la suma de las tres corriente en los resistores:
+                          </p>
+                          <div class="formula">
+                            $I = I_{1} + I_{2} + I_{3} = V_{ab} (\frac{1}{R_{1}} + \frac{1}{R_{2}} +
+                            \frac{1}{R_{3}})$
+                          </div>
+                          <div>
+                            <br/>
+                          </div>
+                          <div class="formula">
+                            $ \frac{I}{V_{ab}} = \frac{1}{R_{1}} + \frac{1}{R_{2}} + \frac{1}{R_{3}} $
+                          </div>
+                          <div>
+                            <br/>
+                          </div>
+                          <p>
+                            Pero, por definicion, la resistencia equivalente, $R_{eq}$,
+                            $\frac{I}{V_{ab}} = \frac{1}{R_{eq}}$, por lo que
+                          </p>
+                          <div>
+                            <br/>
+                          </div>
+                          <div>
+                            <div class="formula">
+                              $ \frac{1}{R_{eq}} = \frac{1}{R_{1}} + \frac{1}{R_{2}} +
+                              \frac{1}{R_{3}} $
+                            </div>
+                          </div>
+                          <div class="formula">
+                            (Resistores en paralelo)
+                          </div>
+                          <div>
+                            <br/>
+                          </div>
+                          <div class="imagen">
+                            <img src="../images/rparalelo.png" alt="" style="max-width: 50%;" alt="">
+                          </div>
+
+                          <div>
+                            <br/>
+                          </div>
+                          <div class="imagen">
+                            <img src="../images/rcombinado.png" alt="" style="max-width: 50%;" alt="">
+                          </div>
+
+                          <div>
+                            <br/>
+                          </div>
+                          <div class="imagen">
+                            <img src="../images/req.png" alt="" style="max-width: 50%;" alt="">
+                          </div>
+
+                        </div>
+                        <div class="kirchoff">
+                          <h4>
+                            LEY DE JOULE
+                          </h4>
+                          <div>
+                            <br/>
+                          </div>
+                          <p>
+                            Cuando la corriente eléctrica atraviesa un conductor, éste se calienta,
+                            emitiendo energía, de forma que el calor desprendido es directamente
+                            proporcional a la resistencia del conductor, al tiempo durante el que está
+                            circulando la corriente y al cuadrado de la intensidad que lo atraviesa.
+                          </p>
+                          <div>
+                            <br/>
+                          </div>
+                          <div class="formula">
+                            $E_{calor} = R \cdot I^{2} \cdot t$
+                          </div>
+                          <div>
+                            <br/>
+                          </div>
+                          <div>
+                            <p>
+                              Si todas las magnitudes utilizadas en esta fórmula están expresadas en
+                              las unidades del sistema internacional, el resultado se obtiene en
+                              julios.
+                            </p>
+                            <div>
+                              <br/>
+                            </div>
+                            <p>
+                              Sin embargo es muy habitual utilizar la caloría como unidad de energía.
+                              En ese caso para convertir el valor obtenido en julios a calorías debe
+                              multiplicarse por el factor de conversión $0,24$
+                            </p>
+                          </div>
+                          <div>
+                            <br/>
+                          </div>
+                          <div>
+                            <div class="formula">
+                              $E_{calor} = (0.24) \cdot R \cdot I^{2} \cdot t$
+                            </div>
+                          </div>
+                          <div>
+                            <br/>
+                          </div>
+                          <div class="panel panel-success">
+                            <div class="panel-heading">CURIOSIDAD</div>
+                            <div class="panel-body">
+                              <p style="align:justify">
+                                La <b>ley de Joule</b> debe su nombre a su descubridor el físico inglés <a href="http://es.wikipedia.org/wiki/James_Prescott_Joule ">James
+                                  Prescot Joule</a>. Uno de los más notables físicos de su época, conocido sobre todo por sus investigaciones en
+                                  electricidad, termodinámica
+                                  y energía. Estudió el magnetismo, y descubrió su relación con el trabajo mecánico, lo cual le condujo a la teoría de
+                                  la energía. La unidad internacional de energía, el calor y trabajo, el joule, fue bautizada en su honor. Trabajó con
+                                  lord Kelvin para desarrollar la escala absoluta de la temperatura, hizo observaciones sobre la teoría termodinámica
+                                  (efecto Joule-Thomson) y encontró una relación entre la corriente eléctrica que atraviesa una resistencia y el calor
+                                  disipado, llamada actualmente ley de Joule.
+                                  <br/>
+                                </p>
+                                <div>
+                                  <br/>
+                                </div>
+                                <div class="imagen">
+                                  <img src="../images/joule.png" alt="" style="max-width: 50%;" alt="">
+                                </div>
+                              </div>
+                            </div>
+
+
+                            <div>
+                              <br/>
+                            </div>
+                            <h4>
+                              LEYES DE KIRCHOFF
+                            </h4>
+                            <div>
+                              <br/>
+                            </div>
+                            <div>
+                              <p>
+                                Las leyes (o Lemas) de Kirchhoff fueron formuladas por Gustav Kirchhoff
+                                en 1845, mientras aún era estudiante. Son muy utilizadas en ingeniería
+                                eléctrica para obtener los valores de la corriente y el potencial en
+                                cada punto de un circuito eléctrico. Surgen de la aplicación de la ley
+                                de conservación de la energía.
+                                <br/>
+                              </p>
+                              <div>
+                                <br/>
+                              </div>
+                              <p>
+                                Estas leyes nos permiten resolver los circuitos utilizando el conjunto
+                                de ecuaciones al que ellos responden.
+                              </p>
+                              <div>
+                                <br/>
+                              </div>
+                              <div class="panel panel-success">
+                                <div class="panel-heading">CURIOSIDAD</div>
+                                <div class="panel-body">
+                                  <p>
+                                    Las <b>leyes de Kirchhoff</b> debe su nombre a su descubridor <a href="https://es.wikipedia.org/wiki/Gustav_Kirchhoff">Gustav Robert Kirchhoff​
+                                    </a>. Gustav Robert Kirchhoff​ fue un físico prusiano cuyas principales contribuciones científicas se
+                                      centraron en los campos de los circuitos eléctricos, la teoría de placas, la óptica, la espectroscopia y la emisión
+                                      de radiación del cuerpo negro.
+
+                                      Inventó el espectroscopio y junto con Robert Bunsen, descubrió el rubidio y el cesio por métodos espectrales.
+                                      Identificó la raya D del espectro
+                                      solar como la producida por sodio vaporizado. Descubrió las leyes generales que rigen el comportamiento de
+                                      un circuito eléctrico. Se dedicó al estudio de la termodinámica y realizó investigaciones sobre la conducción
+                                      del calor. Estudió los espectros del Sol, de las estrellas y de las nebulosas, confeccionando un atlas del espacio
+                                      y demostró la relación existente entre la emisión y la absorción de la luz por los cuerpos incandescentes.
+
+                                      Kirchhoff propuso el nombre de radiación de cuerpo negro en 1862. Es responsable de dos conjuntos de leyes fundamentales,
+                                      en la teoría clásica de circuitos eléctricos y en la emisión térmica. Aunque ambas se denominan Leyes de Kirchhoff,
+                                      probablemente esta denominación es más común en el caso de las Leyes de Kirchhoff de la ingeniería eléctrica.
+                                      <br/>
+                                    </p>
+                                    <div>
+                                      <br/>
+                                    </div>
+                                    <div class="imagen">
+                                      <img src="../images/kir.png" alt="" style="max-width: 50%;" alt="">
+                                    </div>
+                                  </div>
+                                </div>
+                                <h4>
+                                  La Primera Ley de Kirchoff
+                                </h4>
+                                <p>
+                                  En un circuito eléctrico, es común que se generen nodos de corriente.
+                                  Un nodo es el punto del circuito donde se unen mas de un terminal de un
+                                  componente eléctrico. Si lo desea pronuncie “nodo” y piense en “nudo”
+                                  porque esa es precisamente la realidad: dos o mas componentes se unen
+                                  anudados entre sí (en realidad soldados entre sí).
+                                </p>
+                              </div>
+                              <div>
+                                <br/>
+                              </div>
+                              <div class="imagen">
+                                <img src="../images/nodos.png" alt="" style="max-width: 50%;" alt="">
+                              </div>
+
+                              <div class="formula">
+                                (Circuito basico con dos nodos)
+                              </div>
+                              <div>
+                                <br/>
+                              </div>
+                              <div>
+                                <p>
+                                  Observe que se trata de dos resistores de $1 K \Omega$ ($R_{1}$ y $R_{2}$)
+                                  conectados sobre una misma batería B1. La batería B1 conserva su
+                                  tensión fija a pesar de la carga impuesta por los dos resistores; esto
+                                  significa cada resistor tiene aplicada una tensión de $9V$ sobre él. La
+                                  ley de Ohm indica que cuando a un resistor de $1 K \Omega$ se le aplica
+                                  una tensión de $9V$ por el circula una corriente de $9 mA$.
+                                </p>
+                                <div>
+                                  <br/>
+                                </div>
+                                <div class="formula">
+                                  $I = \frac{V}{R} = \frac{9}{1.000} = 0,009 A = 9 mA$
+                                </div>
+                                <div>
+                                  <br/>
+                                </div>
+                                <p>
+                                  Por lo tanto podemos asegurar que cada resistor va a tomar una
+                                  corriente de $9mA$ de la batería o que entre ambos van a tomar $18 mA$
+                                  de la batería. También podríamos decir que desde la batería sale un
+                                  conductor por el que circulan $18 mA$ que al llegar al nodo $1$ se
+                                  bifurca en una corriente de $9 mA$ que circula por cada resistor, de
+                                  modo que en el nodo $2$ se vuelven a unir para retornar a la batería
+                                  con un valor de $18 mA$.
+                                </p>
+                              </div>
+                              <div>
+                                <br/>
+                              </div>
+                              <div class="imagen">
+                                <img src="../images/aplicacionnodos.png" alt="" style="max-width: 50%;" alt="">
+                              </div>
+
+                              <p>
+                                (Aplicación de la primera ley de Kirchoff)
+                              </p>
+                              <div>
+                                <br/>
+                              </div>
+                              <div>
+                                <p>
+                                  Es decir que en el nodo $1$ podemos decir que
+                                </p>
+                                <div>
+                                  <br/>
+                                </div>
+                                <div class="formula">
+                                  $I_{1} = I_{2} + I_{3}$
+                                  <br/>
+                                </div>
+                                <div>
+                                  <br/>
+                                </div>
+                                <p>
+                                  y reemplazando valores: que
+                                </p>
+                                <div>
+                                  <br/>
+                                </div>
+                                <div class="formula">
+                                  $18 mA = 9 mA + 9 mA$
+                                </div>
+                                <div>
+                                  <br/>
+                                </div>
+                                <p>
+                                  y que en el nodo $2$
+                                </p>
+                                <div>
+                                  <br/>
+                                </div>
+                                <div class="formula">
+                                  $I_{4} = I_{2} + I_{3}$
+                                </div>
+                                <div>
+                                  <br/>
+                                </div>
+                                <p>
+                                  Es obvio que las corriente $I_{1}$ e $I_{4}$ son iguales porque lo que egresa de
+                                  la batería debe ser igual a lo que ingresa.
+                                </p>
+                              </div>
+                              <div>
+                                <br/>
+                              </div>
+                              <div>
+                                <h4>
+                                  ENUNCIADO DE LA PRIMERA LEY DE KIRCHOFF
+                                </h4>
+                                <div>
+                                  <br/>
+                                </div>
+                                <p>
+                                  La corriente entrante a un nodo es igual a la suma de las corrientes
+                                  salientes. Del mismo modo se puede generalizar la primer ley de
+                                  Kirchoff diciendo que la suma de las corrientes entrantes a un nodo son
+                                  iguales a la suma de las corrientes salientes.
+                                  <br/>
+                                </p>
+                                <div>
+                                  <br/>
+                                </div>
+                                <p>
+                                  La razón por la cual se cumple esta ley se entiende perfectamente en
+                                  forma intuitiva si uno considera que la corriente eléctrica es debida a
+                                  la circulación de electrones de un punto a otro del circuito. Piense en
+                                  una modificación de nuestro circuito en donde los resistores tienen un
+                                  valor mucho mas grande que el indicado, de modo que circule una
+                                  corriente eléctrica muy pequeña, constituida por tan solo 10 electrones
+                                  que salen del terminal positivo de la batería. Los electrones están
+                                  guiados por el conductor de cobre que los lleva hacia el nodo 1.
+                                  Llegados a ese punto los electrones se dan cuenta que la resistencia
+                                  eléctrica hacia ambos resistores es la misma y entonces se dividen
+                                  circulando 5 por un resistor y otros 5 por el otro. Esto es totalmente
+                                  lógico porque el nodo no puede generar electrones ni retirarlos del
+                                  circuito solo puede distribuirlos y lo hace en función de la
+                                  resistencia de cada derivación. En nuestro caso las resistencias son
+                                  iguales y entonces envía la misma cantidad de electrones para cada
+                                  lado. Si las resistencias fueran diferentes, podrían circular tal ves 1
+                                  electrón hacia una y nueve hacia la otra de acuerdo a la aplicación de
+                                  la ley de Ohm.
+                                </p>
+                                <div>
+                                  <br/>
+                                </div>
+                                <p>
+                                  Mas científicamente podríamos decir, que siempre se debe cumplir una
+                                  ley de la física que dice que la energía no se crea ni se consume, sino
+                                  que siempre se transforma. La energía eléctrica que entrega la batería
+                                  se subdivide en el nodo de modo que se transforma en iguales energías
+                                  térmicas entregadas al ambiente por cada uno de los resistores. Si los
+                                  resistores son iguales y están conectados a la misma tensión, deben
+                                  generar la misma cantidad de calor y por lo tanto deben estar
+                                  recorridos por la misma corriente; que sumadas deben ser iguales a la
+                                  corriente entregada por la batería, para que se cumpla la ley de
+                                  conservación de la energía.
+                                </p>
+                                <div>
+                                  <br/>
+                                </div>
+                                <p>
+                                  En una palabra, que la energía eléctrica entregada por la batería es
+                                  igual a la suma de las energías térmicas disipadas por los resistores.
+                                  El autor un poco en broma suele decir en sus clases. Como dice el
+                                  Martín Fierro, todo Vatio que camina va a parar al resistor. Nota: el
+                                  Vatio es la unidad de potencia eléctrica y será estudiado
+                                  oportunamente.
+                                </p>
+                                <div>
+                                  <br/>
+                                </div>
+                                <h4>
+                                  SEGUNDA LEY DE KIRCHOFF
+                                </h4>
+                                <p>
+                                  Cuando un circuito posee mas de una batería y varios resistores de
+                                  carga ya no resulta tan claro como se establecen la corrientes por el
+                                  mismo. En ese caso es de aplicación la segunda ley de kirchoff, que nos
+                                  permite resolver el circuito con una gran claridad.
+                                </p>
+                                <div>
+                                  <br/>
+                                </div>
+                                <p>
+                                  En un circuito cerrado, la suma de las tensiones de batería que se
+                                  encuentran al recorrerlo siempre serán iguales a la suma de las caídas
+                                  de tensión existente sobre los resistores.
+                                </p>
+                                <div>
+                                  <br/>
+                                </div>
+                                <p>
+                                  En la figura siguiente se puede observar un circuito con dos baterías
+                                  que nos permitirá resolver un ejemplo de aplicación.
+                                </p>
+                              </div>
+                              <div>
+                                <br/>
+                              </div>
+                              <div class="imagen">
+                                <img src="../images/segundakirchoff.png" alt="" style="max-width: 50%;" alt="">
+                              </div>
+
+                              <div>
+                                <br/>
+                              </div>
+                              <div>
+                                <p>
+                                  Observe que nuestro circuito posee dos baterías y dos resistores y
+                                  nosotros deseamos saber cual es la tensión de cada punto (o el
+                                  potencial), con referencia al terminal negativo de B1 al que le
+                                  colocamos un símbolo que representa a una conexión a nuestro planeta y
+                                  al que llamamos tierra o masa. Ud. debe considerar al planeta tierra
+                                  como un inmenso conductor de la electricidad.
+                                </p>
+                                <div>
+                                  <br/>
+                                </div>
+                                <p>
+                                  Las tensiones de fuente, simplemente son las indicadas en el circuito,
+                                  pero si pretendemos aplicar las caídas de potencial en los resistores,
+                                  debemos determinar primero cual es la corriente que circula por aquel.
+                                  Para determinar la corriente, primero debemos determinar cual es la
+                                  tensión de todas nuestras fuentes sumadas. Observe que las dos fuentes
+                                  están conectadas de modos que sus terminales positivos están
+                                  galvánicamente conectados entre si por el resistor $R_{1}$. esto significa
+                                  que la tensión total no es la suma de ambas fuentes sino la resta. Con
+                                  referencia a tierra, la batería $B_{1}$ eleva el potencial a $10V$ pero la
+                                  batería $B_{2}$ lo reduce en $1 V$. Entonces la fuente que hace circular
+                                  corriente es en total de $10 – 1 = 9V$. Los electrones que circulan por
+                                  ejemplo saliendo de B1 y pasando por $R_{1}$, luego pierden potencial en $B_{2}$
+                                  y atraviesan $R_{2}$. Para calcular la corriente circulante podemos agrupar
+                                  entonces a los dos resistores y a las dos fuentes tal como lo indica la
+                                  figura siguiente.
+                                </p>
+                              </div>
+                              <div>
+                                <br/>
+                              </div>
+                              <div class="imagen">
+                                <img src="../images/reagrupamientocircuito.png" alt="" style="max-width: 50%;" alt="">
+                              </div>
+
+                              <div class="formula">
+                                (Reagrupamiento del circuito)
+                              </div>
+                              <div>
+                                <div>
+                                  <br/>
+                                </div>
+                                <p>
+                                  ¿El circuito de la figura 4 es igual al circuito de la figura 3? No,
+                                  este reagrupamiento solo se genera para calcular la corriente del
+                                  circuito original. De acuerdo a la ley de Ohms
+                                </p>
+                              </div>
+                              <div>
+                                <br/>
+                              </div>
+                              <div>
+                                <div class="formula">
+                                  $I = \frac{E_{t}}{R_{1}+R_{2}}$
+                                </div>
+                                <div>
+                                  <br/>
+                                </div>
+                                <p>
+                                  porque los electrones que salen de $R_{1}$ deben pasar forzosamente por
+                                  $R_{2}$ y entonces es como si existiera un resistor total igual a la
+                                  suma de los resistores
+                                </p>
+                                <div>
+                                  <br/>
+                                </div>
+                                <div class="formula">
+                                  $R_{1} + R_{2} = 1100 \Omega$
+                                </div>
+                                <div>
+                                  <br/>
+                                </div>
+                                <p>
+                                  Se dice que los resistores están conectados en serie cuando están
+                                  conectados de este modo, de forma tal que ambos son atravesados por la
+                                  misma corriente igual a
+                                </p>
+                                <div>
+                                  <br/>
+                                </div>
+                                <div class="formula">
+                                  $I = \frac{(10 – 1)}{1000} + 100 = 0,00817 o 8,17 mA$
+                                </div>
+                                <div>
+                                  <br/>
+                                </div>
+                                <p>
+                                  Ahora que sabemos cual es la corriente que atraviesa el circuito
+                                  podemos calcular la tensión sobre cada resistor. De la expresión de la
+                                  ley de Ohm
+                                </p>
+                                <div>
+                                  <br/>
+                                </div>
+                                <div class="formula">
+                                  $I = \frac{V}{R}$
+                                </div>
+                                <div>
+                                  <br/>
+                                </div>
+                                <p>
+                                  se puede despejar que
+                                </p>
+                                <div>
+                                  <br/>
+                                </div>
+                                <div class="formula">
+                                  $V = R \cdot I$
+                                </div>
+                                <div>
+                                  <br/>
+                                </div>
+                                <p>
+                                  y de este modo reemplazando valores se puede obtener que la caída sobre
+                                  $R_{2}$ es igual a
+                                </p>
+                                <div>
+                                  <br/>
+                                </div>
+                                <div class="formula">
+                                  $V \cdot R_{2} = R_{2} \cdot I = 100 . 8,17 mA = 817 mV$
+                                </div>
+                                <div>
+                                  <br/>
+                                </div>
+                                <p>
+                                  y del mismo modo
+                                </p>
+                                <div>
+                                  <br/>
+                                </div>
+                                <div class="formula">
+                                  $V \cdot R_{1} = R_{1} \cdot I = 1000 . 8,17 mA = 8,17 V$
+                                </div>
+                                <div>
+                                  <br/>
+                                </div>
+                                <p>
+                                  Estos valores recién calculados de caídas de tensión pueden ubicarse
+                                  sobre el circuito original con el fin de calcular la tensión deseada.
+                                </p>
+                              </div>
+                              <div>
+                                <br/>
+                              </div>
+                              <div class="imagen">
+                                <img src="../images/circuitoresuelto.png" alt="" style="max-width: 50%;" alt="">
+                              </div>
+
+                              <div class="formula">
+                                (Circuito resuelto)
+                              </div>
+                              <div>
+                                <br/>
+                              </div>
+                              <div>
+                                <p>
+                                  Observando las cuatro flechas de las tensiones de fuente y de las
+                                  caídas de tensión se puede verificar el cumplimiento de la segunda ley
+                                  de Kirchoff, ya que comenzando desde la masa de referencia y girando en
+                                  el sentido de las agujas del reloj podemos decir que
+                                </p>
+                                <div>
+                                  <br/>
+                                </div>
+                                <div class="formula">
+                                  $10V – 8,17V – 1V – 0,817 = 0 V$
+                                </div>
+                                <div>
+                                  <br/>
+                                </div>
+                                <p>
+                                  o realizando una transposición de términos y dejando las fuentes a la
+                                  derecha y las caídas de tensión a la izquierda podemos decir que la
+                                  suma de las tensiones de fuente
+                                </p>
+                                <div>
+                                  <br/>
+                                </div>
+                                <div class="formula">
+                                  $10V – 1V = 8,17V + 0,817 = 8,987 = 9V$
+                                </div>
+                                <div>
+                                  <br/>
+                                </div>
+                                <p>
+                                  Y además podemos calcular fácilmente que la tensión sobre la salida del
+                                  circuito es de
+                                </p>
+                                <div>
+                                  <br/>
+                                </div>
+                                <div class="formula">
+                                  $0,817V + 1V = 1,817V$
+                                </div>
+                                <div>
+                                  <br/>
+                                </div>
+                                <p>
+                                  con la polaridad indicada en el circuito es decir positiva.
+                                </p>
+                              </div>
+                            </div>
+
+                          </div>
+                          <div class="division">
+                          </br>
+                          <hr/>
+                          </br>
+                          </div>
+
+                          <div class="vcap5">
+                            <div class="row" align="left">
+                              <div class="col-sm-6">
+                                <h3 align="center">Capitulo 5</h3>
+                                <h4>Temas Tratados.</h4>
+
+                                <div class="col-md-2">
+                                </div>
+                                <div class="col-md-8">
+                                  <ul>
+                                    <li>Fuerza electromotriz.</li>
+                                    <li>Resistencia Eléctrica.</li>
+                                    <li>Flujo de carga.</li>
+                                    <li>Flujo de carga.</li>
+                                    <li>Densidad de corriente.</li>
+                                    <li>Ley de Ohm.</li>
+                                    <li>Ley de Joule.</li>
+                                    <li>Leyes de Kirchoff.</li>
+                                    <li>Circuitos de corriente continua.</li>
+                                  </ul>
+                                </div>
+                                <div class="col-md-2">
+                                </div>
+                              </div>
+                              <div class="col-sm-6">
+                                <div class="col-md-1">
+                                </div>
+                                <div class="col-md-10">
+                                  <iframe width="420" height="315"
+                                  src="https://www.youtube.com/embed/videoseries?list=PLDXpdfOWL9enbA1a9BgobCK8F91QKiQHS">
+                                </iframe>
+                              </div>
+                              <div class="col-md-1">
+                              </div>
+                            </div>
+                          </div>
+                          </div>
+                        </div>
+                        <div class="col-md-2">
+
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <footer>
+                      <iframe src="footer.html" width="1500" height="400" frameBorder="0" scrolling="no"></iframe>
+                    </footer>
+                  </body>
+                  </html>
